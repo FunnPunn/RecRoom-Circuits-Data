@@ -18,6 +18,7 @@
   "homepage": "https://github.com/FunnPunn/RecRoom-Circuits-Data#readme",
   "dependencies": {
     "fs": "^0.0.1-security",
+    "prompt-sync": "^4.2.0",
     "ts-node": "^10.9.1"
   }
 }

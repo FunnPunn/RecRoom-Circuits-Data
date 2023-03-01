@@ -21,10 +21,14 @@ for(var k of Keys){
     }
 }
 fs.writeFileSync("chips/chips.json", JSON.stringify(Out, null, 4))
-/*
+/* JSON Structure:
 {
     "Chip Name": {
-        Chip data
+        Description
+        IsBeta
+        IsTrollingRisk
+        DeprecationStage
+        NodeDescs (SHOULD CHANGE)
     }
 }
 */
