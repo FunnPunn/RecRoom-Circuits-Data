@@ -1,0 +1,23 @@
+{
+  "name": "recroom-circuits-data",
+  "version": "1.0.0",
+  "description": "javascript files for circuit json files",
+  "main": "chips/index.ts",
+  "scripts": {
+    "test": "ts-node chips/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FunnPunn/RecRoom-Circuits-Data.git"
+  },
+  "author": "funn punn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FunnPunn/RecRoom-Circuits-Data/issues"
+  },
+  "homepage": "https://github.com/FunnPunn/RecRoom-Circuits-Data#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "ts-node": "^10.9.1"
+  }
+}
