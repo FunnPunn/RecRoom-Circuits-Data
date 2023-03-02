@@ -11,7 +11,7 @@ Chip
 Creator
 `
 
-var chips = JSON.parse(fs.readFileSync("chips/testchips.json"))
+var chips = JSON.parse(fs.readFileSync("chips/chips.json"))
 const options = { ignoreCase: true, reverse: false, depth: 1}
 var json = {}
 var outjson = {}
@@ -216,7 +216,7 @@ function runConsole(){
             if(response.toLowerCase() == "y"){
                 chips[namer] = json
                 outjson = sortjson(chips, options)
-                fs.writeFileSync("chips/testchips.json", JSON.stringify(outjson, null , 4))
+                fs.writeFileSync("chips/chips.json", JSON.stringify(outjson, null , 4))
             }
             break;
         case "remove":
@@ -224,7 +224,7 @@ function runConsole(){
             if(chips[jsonremove]){
                 delete chips[jsonremove]
                 console.log("Deleted.")
-                fs.writeFileSync("chips/testchips.json", JSON.stringify(chips, null, 4))
+                fs.writeFileSync("chips/chips.json", JSON.stringify(chips, null, 4))
             } else {
                 console.log("Key doesn't exist.")
             }
