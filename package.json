@@ -4,7 +4,7 @@
   "description": "javascript files for circuit json files",
   "main": "chips/index.ts",
   "scripts": {
-    "test": "node index.js",
+    "test": "node dev-scripts/index.js",
     "creator": "node creator.js"
   },
   "repository": {
