@@ -30,12 +30,16 @@ if(ShouldWrite) {
             if (type in dict){
               arr["ReadonlyType"] = dict[type]
             }
+            arr["DataType"] = arr["ReadonlyType"]
+            arr["ReadonlyType"] = null
           }
           for(var arr of Ports["Outputs"]){
             let type = arr["ReadonlyType"]
             if (type in dict){
               arr["ReadonlyType"] = dict[type]
             }
+            arr["DataType"] = arr["ReadonlyType"]
+            arr["ReadonlyType"] = null
           }
       }  
 

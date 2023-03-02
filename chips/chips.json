@@ -7,21 +7,23 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "float",
                     "int"
-                ],
-                "Description": ""
+                ]
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "float",
                     "int"
-                ],
-                "Description": ""
+                ]
             }
         ]
     },
@@ -33,15 +35,17 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ]
     },
@@ -53,20 +57,23 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Consumable",
-                "ReadonlyType": "Consumable",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Consumable"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -78,40 +85,47 @@
         "Inputs": [
             {
                 "Name": "Run",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Player",
-                "ReadonlyType": "Player",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Player"
             },
             {
                 "Name": "Amount",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Run",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "On Add Currency Complete",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Success",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             },
             {
                 "Name": "Total Balance",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -123,23 +137,25 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "int",
                     "float",
                     "Vector3"
-                ],
-                "Description": ""
+                ]
             }
         ],
         "Outputs": [
             {
                 "Name": "Sum",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "int",
                     "float",
                     "Vector3"
-                ],
-                "Description": ""
+                ]
             }
         ]
     },
@@ -151,30 +167,34 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "Player",
                     "Rec",
                     "Room",
                     "Object"
-                ],
-                "Description": ""
+                ]
             },
             {
                 "Name": "Tag",
-                "ReadonlyType": "string",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "string"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -186,30 +206,34 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "Player",
                     "Rec",
                     "Room",
                     "Object"
-                ],
-                "Description": ""
+                ]
             },
             {
                 "Name": "Tags",
-                "ReadonlyType": "List<string>",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "List<string>"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -221,30 +245,35 @@
         "Inputs": [
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             }
         ],
         "Outputs": [
             {
                 "Name": "Vision Type",
-                "ReadonlyType": "string",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "string"
             },
             {
                 "Name": "Vision Range (m)",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             },
             {
                 "Name": "Vision Cone Angle",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             },
             {
                 "Name": "Hearing Range (m)",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ]
     },
@@ -256,15 +285,17 @@
         "Inputs": [
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             }
         ],
         "Outputs": [
             {
                 "Name": "Target",
-                "ReadonlyType": "Combatant",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Combatant"
             }
         ]
     },
@@ -276,12 +307,15 @@
         "Inputs": [
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "AI",
                     "Combatant",
                     "Rec",
@@ -291,15 +325,15 @@
                     "Point",
                     "Player",
                     "Vector3"
-                ],
-                "Description": ""
+                ]
             }
         ],
         "Outputs": [
             {
                 "Name": "Has LoS",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ]
     },
@@ -311,17 +345,21 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             },
             {
                 "Name": "Look Target",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "AI",
                     "Combatant",
                     "Rec",
@@ -331,20 +369,21 @@
                     "Point",
                     "Player",
                     "Vector3"
-                ],
-                "Description": ""
+                ]
             },
             {
                 "Name": "Look Target is Direction",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -356,25 +395,29 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             }
         ]
     },
@@ -386,17 +429,21 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "AI",
                     "Combatant",
                     "Rec",
@@ -406,15 +453,15 @@
                     "Point",
                     "Player",
                     "Vector3"
-                ],
-                "Description": ""
+                ]
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -426,29 +473,33 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             },
             {
                 "Name": "Rotation (degrees)",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "float",
                     "int",
                     "Vector3"
-                ],
-                "Description": ""
+                ]
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -460,45 +511,53 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             },
             {
                 "Name": "Vision Type (Cone/Circle)",
-                "ReadonlyType": "string",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "string"
             },
             {
                 "Name": "Vision Range (m)",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             },
             {
                 "Name": "Vision Cone Angle (Cone Type Only)",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             },
             {
                 "Name": "Hearing Range (m)",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             },
             {
                 "Name": "Require LoS for targeting",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -510,25 +569,29 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             },
             {
                 "Name": "Speed (m/s)",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -540,25 +603,29 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             },
             {
                 "Name": "Patrol Point",
-                "ReadonlyType": "Patrol Point",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Patrol Point"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -570,25 +637,29 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Combatant",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Combatant"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -600,20 +671,23 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -625,20 +699,23 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -650,20 +727,23 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "AI",
-                "ReadonlyType": "AI",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "AI"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -676,8 +756,9 @@
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "Audio",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Audio"
             }
         ]
     },
@@ -689,15 +770,17 @@
         "Inputs": [
             {
                 "Name": "Input",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ]
     },
@@ -709,38 +792,44 @@
         "Inputs": [
             {
                 "Name": "Add Velocity",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Rec Room Object",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Rec Room Object"
             },
             {
                 "Name": "Rotation",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "Vector3",
                     "Quaternion"
-                ],
-                "Description": ""
+                ]
             },
             {
                 "Name": "Velocity Multiplier",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             },
             {
                 "Name": "Max Angular Velocity Applied (deg/s)",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -752,40 +841,47 @@
         "Inputs": [
             {
                 "Name": "Add Velocity",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Rec Room Object",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Rec Room Object"
             },
             {
                 "Name": "Angular Velocity",
-                "ReadonlyType": "Vector3",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Vector3"
             },
             {
                 "Name": "Speed Multiplier",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             },
             {
                 "Name": "Max Angular Speed (deg/s)",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Success",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ]
     },
@@ -797,33 +893,38 @@
         "Inputs": [
             {
                 "Name": "Set Velocity",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Rec Room Object",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Rec Room Object"
             },
             {
                 "Name": "Rotation",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "Vector3",
                     "Quaternion"
-                ],
-                "Description": ""
+                ]
             },
             {
                 "Name": "Velocity Multiplier",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -835,35 +936,41 @@
         "Inputs": [
             {
                 "Name": "Set Velocity",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Rec Room Object",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Rec Room Object"
             },
             {
                 "Name": "Angular Velocity",
-                "ReadonlyType": "Vector3",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Vector3"
             },
             {
                 "Name": "Speed Multiplier",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Success",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ]
     },
@@ -875,15 +982,17 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ]
     },
@@ -895,20 +1004,23 @@
         "Inputs": [
             {
                 "Name": "Y",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             },
             {
                 "Name": "X",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ]
     },
@@ -920,15 +1032,17 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ]
     },
@@ -940,15 +1054,17 @@
         "Inputs": [
             {
                 "Name": "Target",
-                "ReadonlyType": "Audio Player",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Audio Player"
             }
         ],
         "Outputs": [
             {
                 "Name": "Playing",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ]
     },
@@ -960,15 +1076,17 @@
         "Inputs": [
             {
                 "Name": "Target",
-                "ReadonlyType": "Audio Player",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Audio Player"
             }
         ],
         "Outputs": [
             {
                 "Name": "Speed",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ]
     },
@@ -980,15 +1098,17 @@
         "Inputs": [
             {
                 "Name": "Target",
-                "ReadonlyType": "Audio Player",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Audio Player"
             }
         ],
         "Outputs": [
             {
                 "Name": "Volume",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ]
     },
@@ -1000,20 +1120,23 @@
         "Inputs": [
             {
                 "Name": "Pause",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Audio Player",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Audio Player"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -1025,25 +1148,29 @@
         "Inputs": [
             {
                 "Name": "Play",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Audio Player",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Audio Player"
             },
             {
                 "Name": "Media",
-                "ReadonlyType": "Audio",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Audio"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -1055,25 +1182,29 @@
         "Inputs": [
             {
                 "Name": "Set Speed",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Audio Player",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Audio Player"
             },
             {
                 "Name": "Speed",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -1085,25 +1216,29 @@
         "Inputs": [
             {
                 "Name": "Set Volume",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Audio Player",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Audio Player"
             },
             {
                 "Name": "Volume",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -1115,20 +1250,23 @@
         "Inputs": [
             {
                 "Name": "Stop",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Audio Player",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Audio Player"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -1140,15 +1278,17 @@
         "Inputs": [
             {
                 "Name": "Target",
-                "ReadonlyType": "Audio Player",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Audio Player"
             }
         ],
         "Outputs": [
             {
                 "Name": "Time Stamp",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ]
     },
@@ -1160,15 +1300,17 @@
         "Inputs": [
             {
                 "Name": "Target",
-                "ReadonlyType": "Beacon",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Beacon"
             }
         ],
         "Outputs": [
             {
                 "Name": "Color",
-                "ReadonlyType": "Color",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Color"
             }
         ]
     },
@@ -1180,15 +1322,17 @@
         "Inputs": [
             {
                 "Name": "Target",
-                "ReadonlyType": "Beacon",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Beacon"
             }
         ],
         "Outputs": [
             {
                 "Name": "Enabled",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ]
     },
@@ -1200,15 +1344,17 @@
         "Inputs": [
             {
                 "Name": "Target",
-                "ReadonlyType": "Beacon",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Beacon"
             }
         ],
         "Outputs": [
             {
                 "Name": "Height",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ]
     },
@@ -1220,25 +1366,29 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Beacon",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Beacon"
             },
             {
                 "Name": "Color",
-                "ReadonlyType": "Color",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Color"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -1250,25 +1400,29 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Beacon",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Beacon"
             },
             {
                 "Name": "Enabled",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -1280,25 +1434,29 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Beacon",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Beacon"
             },
             {
                 "Name": "Height",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -1310,20 +1468,23 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             },
             {
                 "Name": "",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -1335,15 +1496,17 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Leading Zeros",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -1355,20 +1518,23 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             },
             {
                 "Name": "",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -1380,15 +1546,17 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -1400,20 +1568,23 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             },
             {
                 "Name": "",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -1425,15 +1596,17 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Population",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -1445,20 +1618,23 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             },
             {
                 "Name": "Shift",
-                "ReadonlyType": "int",
-                "Description": "Number of bits to rotate"
+                "ReadonlyType": null,
+                "Description": "Number of bits to rotate",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -1470,20 +1646,23 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             },
             {
                 "Name": "Shift",
-                "ReadonlyType": "int",
-                "Description": "Number of bits to rotate"
+                "ReadonlyType": null,
+                "Description": "Number of bits to rotate",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -1495,20 +1674,23 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             },
             {
                 "Name": "Shift",
-                "ReadonlyType": "int",
-                "Description": "Shift count. The actual shift performed will be this value mod 32."
+                "ReadonlyType": null,
+                "Description": "Shift count. The actual shift performed will be this value mod 32.",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -1520,20 +1702,23 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             },
             {
                 "Name": "Shift",
-                "ReadonlyType": "int",
-                "Description": "Shift count. The actual shift performed will be this value mod 32."
+                "ReadonlyType": null,
+                "Description": "Shift count. The actual shift performed will be this value mod 32.",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -1545,15 +1730,17 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Trailing Zeros",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -1565,20 +1752,23 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             },
             {
                 "Name": "",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     },
@@ -1590,25 +1780,29 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ]
     },
@@ -1620,25 +1814,29 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Condition",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ],
         "Outputs": [
             {
                 "Name": "Then",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Else",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -1650,24 +1848,27 @@
         "Inputs": [
             {
                 "Name": "Tuple",
-                "ReadonlyType": "(T0, T1)",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "(T0, T1)"
             }
         ],
         "Outputs": [
             {
                 "Name": "Item 0",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "any"
-                ],
-                "Description": ""
+                ]
             },
             {
                 "Name": "Item 1",
-                "ReadonlyType": [
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": [
                     "any"
-                ],
-                "Description": ""
+                ]
             }
         ]
     },
@@ -1679,15 +1880,17 @@
         "Inputs": [
             {
                 "Name": "Target",
-                "ReadonlyType": "Button",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Button"
             }
         ],
         "Outputs": [
             {
                 "Name": "Is Pressed",
-                "ReadonlyType": "bool",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "bool"
             }
         ]
     },
@@ -1699,15 +1902,17 @@
         "Inputs": [
             {
                 "Name": "Target",
-                "ReadonlyType": "Button",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Button"
             }
         ],
         "Outputs": [
             {
                 "Name": "Text",
-                "ReadonlyType": "string",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "string"
             }
         ]
     },
@@ -1719,25 +1924,29 @@
         "Inputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             },
             {
                 "Name": "Target",
-                "ReadonlyType": "Button",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "Button"
             },
             {
                 "Name": "Text",
-                "ReadonlyType": "string",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "string"
             }
         ],
         "Outputs": [
             {
                 "Name": "",
-                "ReadonlyType": "exec",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "exec"
             }
         ]
     },
@@ -1749,15 +1958,17 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ]
     },
@@ -1769,15 +1980,17 @@
         "Inputs": [
             {
                 "Name": "Value",
-                "ReadonlyType": "float",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "float"
             }
         ],
         "Outputs": [
             {
                 "Name": "Result",
-                "ReadonlyType": "int",
-                "Description": ""
+                "ReadonlyType": null,
+                "Description": "",
+                "DataType": "int"
             }
         ]
     }
