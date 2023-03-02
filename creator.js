@@ -6,6 +6,25 @@ const prompt = require("prompt-sync")({sigint: true})
 var chips = require("fs").readFileSync("chips/chips.json")
 const options = { ignoreCase: true, reverse: false, depth: 1}
 
+const PossibleTypes = [
+    "Exec",
+    "Rec Room Object",
+    "Player",
+    "Int",
+    "Float",
+    "String",
+    "Bool",
+    "Color",
+    /* Object types */
+    "Piston",
+    "Rotator",
+    "Seat",
+    "Ground Vehicle",
+    /* Constant types */
+    "HUD",
+    "WorldUI"
+]
+
 const name = prompt("Enter the name of the chip - ")
 const descr = prompt("Enter the official chip description - ")
 const inputs_am = Number(prompt("Enter the amount of inputs - "))
