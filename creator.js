@@ -7,23 +7,42 @@ var chips = require("fs").readFileSync("chips/chips.json")
 const options = { ignoreCase: true, reverse: false, depth: 1}
 
 const PossibleTypes = [
-    "Exec",
-    "Rec Room Object",
-    "Player",
-    "Int",
-    "Float",
-    "String",
-    "Bool",
-    "Color",
+    "exec",
+    "rec room object",
+    "player",
+    "int",
+    "float",
+    "string",
+    "bool",
+    "color",
+
+    "vector3",
+    "quaternion",
     /* Object types */
-    "Piston",
-    "Rotator",
-    "Seat",
-    "Ground Vehicle",
+    "piston",
+    "rotator",
+    "seat",
+    "ground vehicle",
     /* Constant types */
-    "HUD",
-    "WorldUI"
+    "hud",
+    "world ui",
+    "room destination"
 ]
+
+function Union(){
+    const unionallowedvalues_am = Number(prompt("Enter the amount of union types"))
+    let unionallowedvalues = []
+    for(var x = 0; x < unionallowedvalues_am; x++){
+        let message = "Union Port "
+        let uniontype = prompt(message.concat("type - ")).toLowerCase()
+        if(PossibleTypes.includes(uniontype)){
+            unionallowedvalues.push(uniontype)
+        } else {
+            unionallowedvalues.push("err")
+        }
+    }
+    return unionallowedvalues
+}
 
 const name = prompt("Enter the name of the chip - ")
 const descr = prompt("Enter the official chip description - ")
@@ -38,9 +57,11 @@ if(inputs_am != NaN && Math.abs(inputs_am) != Infinity && outputs_am != NaN && M
     for(var i = 0; i<inputs_am; i++){
         let message = "Input Port "
         let portname = prompt(message.concat("name - "))
-        let porttype = prompt(message.concat("type - ")).toLowerCase
+        let porttype = prompt(message.concat("type - ")).toLowerCase()
         let portdesc = prompt(message.concat("description (optional) - "))
-
+        if(porttype == "union"){
+            porttype = Union();
+        } else console.log("no ".concat(porttype))
         if(portname != "" && porttype != ""){
             inputs.push({
                 "Name": portname,
@@ -54,7 +75,7 @@ if(inputs_am != NaN && Math.abs(inputs_am) != Infinity && outputs_am != NaN && M
     for(var i = 0; i<outputs_am; i++){
         let message = toString(i).concat(" Output Port ")
         let portname = prompt(message.concat("name - "))
-        let porttype = prompt(message.concat("type - ")).toLowerCase
+        let porttype = prompt(message.concat("type - ")).toLowerCase()
         let portdesc = prompt(message.concat("description (optional) - "))
 
         if(portname != "" && porttype != ""){
