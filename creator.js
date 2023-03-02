@@ -8,29 +8,76 @@ const options = { ignoreCase: true, reverse: false, depth: 1}
 
 const PossibleTypes = [
     "exec",
+    "bool",
+    "float",
+    "int",
+    "quaternion",
+    "string",
+    "vector3",
     "rec room object",
     "player",
-    "int",
-    "float",
-    "string",
-    "bool",
+    
     "color",
+    "audio",
+    "collision data",
+    "hud element",
+    "consumable",
+    "destination room",
+    "player world ui",
+    "room key",
+    "tuple",
 
-    "vector3",
-    "quaternion",
-    /* Object types */
-    "piston",
-    "rotator",
-    "seat",
+    "any",
+    
+    "background objects",
+    "fog",
+    "skydome",
+    "sun",
+    
+    "audio player",
+    "beacon",
+    "button",
+    "costume",
+    "die",
+    "light",
+    "emitter",
+    "explosion emitter",
     "ground vehicle",
-    /* Constant types */
-    "hud",
-    "world ui",
-    "room destination"
-]
-
+    "interaction volume",
+    "invisible collision",
+    "piston",
+    "player spawn point",
+    "projectile launcher",
+    "rotator",
+    "room door",
+    "seat",
+    "sfx",
+    "text",
+    "text screen",
+    "toggle button",
+    "trigger handle",
+    "trigger volume",
+    "vector component",
+    "welcome mat",
+    "ai",
+    "gun handle",
+    "laser pointer",
+    "patrol point",
+    "sun direction",
+    ]
+    //Thanks, HaulMiner!
+function List(){
+    console.log("========== List Creator ==========")
+    let datatypes = PossibleTypes
+    datatypes.splice(datatypes.indexOf("exec") ,1)
+    let ltype = prompt("Enter the list type - ")
+    if(datatypes.includes(ltype)) {
+        return("list<".concat(ltype, ">"))
+    }
+}
 function Union(){
-    const unionallowedvalues_am = Number(prompt("Enter the amount of union types"))
+    console.log("========== Union Creator ==========")
+    const unionallowedvalues_am = Number(prompt("Enter the amount of union types - "))
     let unionallowedvalues = []
     for(var x = 0; x < unionallowedvalues_am; x++){
         let message = "Union Port "
@@ -38,7 +85,10 @@ function Union(){
         if(PossibleTypes.includes(uniontype)){
             unionallowedvalues.push(uniontype)
         } else {
-            unionallowedvalues.push("err")
+            if(uniontype == "list") {
+                unionallowedvalues.push(List())
+            } else{
+            unionallowedvalues.push("err")}
         }
     }
     return unionallowedvalues
@@ -46,45 +96,86 @@ function Union(){
 
 const name = prompt("Enter the name of the chip - ")
 const descr = prompt("Enter the official chip description - ")
+var beta = prompt("Is this chip beta? (y) - ")
+var troll = prompt("Is this chip a trolling risk? (y) - ")
+
+if(beta.toLowerCase == "y") beta = true; else beta = false;
+if(troll.toLowerCase == "y") troll = true; else troll = false;
+
 const inputs_am = Number(prompt("Enter the amount of inputs - "))
 const outputs_am = Number(prompt("Enter the amount of outputs - "))
 
 var inputs = []
 var outputs = []
 
+var json = {}
 if(inputs_am != NaN && Math.abs(inputs_am) != Infinity && outputs_am != NaN && Math.abs(outputs_am) != Infinity){
-    console.log("===== Inputs =====")
+    console.log("========== Inputs ==========")
     for(var i = 0; i<inputs_am; i++){
         let message = "Input Port "
         let portname = prompt(message.concat("name - "))
         let porttype = prompt(message.concat("type - ")).toLowerCase()
         let portdesc = prompt(message.concat("description (optional) - "))
         if(porttype == "union"){
-            porttype = Union();
-        } else console.log("no ".concat(porttype))
-        if(portname != "" && porttype != ""){
-            inputs.push({
+            porttype = Union()
+        } else {
+        if(porttype == "list"){
+            porttype = List()
+        }
+        else{
+            if(!PossibleTypes.includes(porttype)){
+            porttype = "err"
+        }}
+        }
+        if(porttype != ""){
+            const data = {
                 "Name": portname,
                 "DataType": porttype,
                 "Description": portdesc
-            })
-        }
-        console.log("=================================")
+            }
+            inputs.push(data)
+            console.log(data)
+        } else i--;
+        console.log("*")
     }
-    console.log("===== Outputs =====")
+    console.log("========== Outputs ==========")
     for(var i = 0; i<outputs_am; i++){
-        let message = toString(i).concat(" Output Port ")
+        let message = ("Output Port ")
         let portname = prompt(message.concat("name - "))
         let porttype = prompt(message.concat("type - ")).toLowerCase()
         let portdesc = prompt(message.concat("description (optional) - "))
 
-        if(portname != "" && porttype != ""){
-            outputs.push({
+        if(porttype == "union"){
+            porttype = Union()
+        } else {
+        if(porttype == "list"){
+            porttype = List()
+        }
+        else{
+            if(!PossibleTypes.includes(porttype)){
+            porttype = "err"
+        }}
+        }
+
+        if(porttype != ""){
+            const data = {
                 "Name": portname,
                 "DataType": porttype,
                 "Description": portdesc
-            })
-        }
+            }
+            outputs.push(data)
+            console.log(data)
+        } else i--;
+        console.log("*")
+    }
+
+    json = {
+        "Name": name,
+        "Description": descr,
+        "IsBeta": beta,
+        "IsTrollingRisk": troll,
+        "Inputs": inputs,
+        "Outputs": outputs
     }
 } else {
     console.log("Invalid #")
