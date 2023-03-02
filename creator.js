@@ -1,10 +1,20 @@
-const { time } = require("console")
+const fs = require("fs")
 const { exit } = require("process")
 const sortjson = require("sort-json")
 const internal = require("stream")
 const prompt = require("prompt-sync")({sigint: true})
-var chips = require("fs").readFileSync("chips/chips.json")
+
+var namer = ""
+const infomessage = `
+Funn's
+Chip
+Creator
+`
+
+var chips = JSON.parse(fs.readFileSync("chips/testchips.json"))
 const options = { ignoreCase: true, reverse: false, depth: 1}
+var json = {}
+var outjson = {}
 
 const PossibleTypes = [
     "exec",
@@ -94,8 +104,11 @@ function Union(){
     return unionallowedvalues
 }
 
-const name = prompt("Enter the name of the chip - ")
+function CreateChip(){
+namer = prompt("Enter the name of the chip - ")
 const descr = prompt("Enter the official chip description - ")
+const depr = prompt("Deprecation stage of the chip (Active|Deprecated|Removed)- ").toLowerCase()
+if(!["active", "deprecated", "removed"].includes(depr)) depr = "active";
 var beta = prompt("Is this chip beta? (y) - ")
 var troll = prompt("Is this chip a trolling risk? (y) - ")
 
@@ -107,8 +120,6 @@ const outputs_am = Number(prompt("Enter the amount of outputs - "))
 
 var inputs = []
 var outputs = []
-
-var json = {}
 if(inputs_am != NaN && Math.abs(inputs_am) != Infinity && outputs_am != NaN && Math.abs(outputs_am) != Infinity){
     console.log("========== Inputs ==========")
     for(var i = 0; i<inputs_am; i++){
@@ -168,15 +179,15 @@ if(inputs_am != NaN && Math.abs(inputs_am) != Infinity && outputs_am != NaN && M
         } else i--;
         console.log("*")
     }
-
+    
     json = {
-        "Name": name,
         "Description": descr,
         "IsBeta": beta,
         "IsTrollingRisk": troll,
         "Inputs": inputs,
         "Outputs": outputs
     }
+    return namer;
 } else {
     console.log("Invalid #")
     exit(0)
@@ -184,8 +195,44 @@ if(inputs_am != NaN && Math.abs(inputs_am) != Infinity && outputs_am != NaN && M
 
 console.log(inputs)
 console.log(outputs)
-/*
-const formatted = JSON.parse(chips)
-const sorted = sortjson(formatted, options)
+}
 
-console.log(sorted) */
+function runConsole(){
+    var cmd = prompt("Enter command. 'help' for a list of commands. - ")
+    switch (cmd) {
+        case "help":
+            console.log(`Options are: 
+            create - Creates a chip and adds it to the merge list
+            merge - Merge the created chip with the JSON file
+            remove - Remove a chip from the JSON file
+            `)
+            break;
+        case "create":
+            CreateChip()
+            break;
+        case "merge":
+            console.log(json)
+            var response = prompt("Do you want to merge the above chip with the JSON file? (y) - ")
+            if(response.toLowerCase() == "y"){
+                chips[namer] = json
+                outjson = sortjson(chips, options)
+                fs.writeFileSync("chips/testchips.json", JSON.stringify(outjson, null , 4))
+            }
+            break;
+        case "remove":
+            const jsonremove = prompt("Which key would you like to remove? (visit the json for reference) - ")
+            if(chips[jsonremove]){
+                delete chips[jsonremove]
+                console.log("Deleted.")
+                fs.writeFileSync("chips/testchips.json", JSON.stringify(chips, null, 4))
+            } else {
+                console.log("Key doesn't exist.")
+            }
+            break;
+        default:
+            break;
+    }
+    runConsole()
+}
+console.log(infomessage)
+runConsole()
