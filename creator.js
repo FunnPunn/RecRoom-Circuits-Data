@@ -1,8 +1,10 @@
 const fs = require("fs")
 const { exit } = require("process")
 const sortjson = require("sort-json")
-const internal = require("stream")
 const prompt = require("prompt-sync")({sigint: true})
+
+const chipjson = fs.readFileSync("data/ports.json")
+const PossibleTypes = JSON.parse(chipjson)["Ports"]
 
 var namer = ""
 const infomessage = `
@@ -11,11 +13,11 @@ Chip
 Creator
 `
 
-var chips = JSON.parse(fs.readFileSync("chips/chips.json"))
+var chips = JSON.parse(fs.readFileSync("data/chips.json"))
 const options = { ignoreCase: true, reverse: false, depth: 1}
 var json = {}
 var outjson = {}
-
+/*
 const PossibleTypes = [
     "exec",
     "bool",
@@ -75,6 +77,7 @@ const PossibleTypes = [
     "patrol point",
     "sun direction",
     ]
+    */
     //Thanks, HaulMiner!
 function List(){
     console.log("========== List Creator ==========")
@@ -216,7 +219,7 @@ function runConsole(){
             if(response.toLowerCase() == "y"){
                 chips[namer] = json
                 outjson = sortjson(chips, options)
-                fs.writeFileSync("chips/chips.json", JSON.stringify(outjson, null , 4))
+                fs.writeFileSync("data/chips.json", JSON.stringify(outjson, null , 4))
             }
             break;
         case "remove":
@@ -224,7 +227,7 @@ function runConsole(){
             if(chips[jsonremove]){
                 delete chips[jsonremove]
                 console.log("Deleted.")
-                fs.writeFileSync("chips/chips.json", JSON.stringify(chips, null, 4))
+                fs.writeFileSync("data/chips.json", JSON.stringify(chips, null, 4))
             } else {
                 console.log("Key doesn't exist.")
             }

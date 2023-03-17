@@ -1,5 +1,5 @@
 const fs = require("fs")
-let original_raw = fs.readFileSync("chips/originalchips.json");
+let original_raw = fs.readFileSync("data/originalchips.json");
 let original = JSON.parse(original_raw)
 
 var Chips = Object.values(original)[0]
@@ -11,18 +11,22 @@ var key = Keys[0]
 
 let ShouldWrite = true
 
+console.log(Keys.length)
 var dict = {}
-
+var n = 0
 if(ShouldWrite) {
+  var ndscs_in = []
+  var ndscs_out = []
     for(var k of Keys){
-      if(k["NodeDescs"][0] === undefined) {console.error(k); break;}
-
-      console.log(k["NodeDescs"][0])
+      n++
+      console.log(n)
+      if(k["NodeDescs"][0] === undefined) {}
+      else {
       var Ports = k["NodeDescs"][0]
       let ReadonlyTypeParams = Ports["ReadonlyTypeParams"]
       if(ReadonlyTypeParams[0] !== null){
           for(var [key, declar] of Object.entries(ReadonlyTypeParams)){
-              var newtypes = declar.replace("(", "").replace(")", "").split(" ").filter((str) => str !== '' && str !== '|')
+              var newtypes = declar.replace("(", "").toLowerCase().replace(")", "").split(" ").filter((str) => str !== '' && str !== '|')
               dict[key]=newtypes
           }
           for(var arr of Ports["Inputs"]){
@@ -31,7 +35,7 @@ if(ShouldWrite) {
               arr["ReadonlyType"] = dict[type]
             }
             arr["DataType"] = arr["ReadonlyType"]
-            arr["ReadonlyType"] = null
+            delete arr["ReadonlyType"]
           }
           for(var arr of Ports["Outputs"]){
             let type = arr["ReadonlyType"]
@@ -39,20 +43,28 @@ if(ShouldWrite) {
               arr["ReadonlyType"] = dict[type]
             }
             arr["DataType"] = arr["ReadonlyType"]
-            arr["ReadonlyType"] = null
+            delete arr["ReadonlyType"]
           }
-      }  
+      } else{
+        k["NodeDescs"][0]["Outputs"] = k["NodeDescs"][0]["Outputs"].toLowerCase()
+        k["NodeDescs"][0]["Inputs"] = k["NodeDescs"][0]["Inputs"].toLowerCase() 
+      }
+        ndscs_in = k["NodeDescs"][0]["Inputs"]
+        ndscs_out = k["NodeDescs"][0]["Outputs"]
+      }
+      
 
-        Out[k["ReadonlyChipName"]] = {
-            "Description": k["Description"],
-            "IsBeta": k["IsBetaChip"],
-            "IsTrollingRisk": k["IsTrollingRisk"],
-            "DeprecationStage": k["DeprecationStage"],
-            "Inputs": k["NodeDescs"][0]["Inputs"],
-            "Outputs": k["NodeDescs"][0]["Outputs"]
+      Out[k["ReadonlyChipName"]] = {
+          "Description": k["Description"],
+          "IsBeta": k["IsBetaChip"],
+          "IsTrollingRisk": k["IsTrollingRisk"],
+          "DeprecationStage": k["DeprecationStage"],
+          "Inputs": ndscs_in,
+          "Outputs": ndscs_out
         }
     }
-    fs.writeFileSync("chips/chips.json", JSON.stringify(Out, null, 4))
+    console.log(Object.values(Out).length)
+    fs.writeFileSync("data/chips.json", JSON.stringify(Out, null, 4))
 }
 /*
 var Ports = PortsToChange["NodeDescs"][0]
