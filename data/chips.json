@@ -12,7 +12,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -23,7 +23,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -143,7 +143,7 @@
                     "int",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -155,7 +155,7 @@
                     "int",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -178,7 +178,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Tag",
@@ -215,7 +215,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Tags",
@@ -318,7 +318,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -359,7 +359,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Look Target is Direction",
@@ -440,7 +440,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -478,7 +478,7 @@
                     "int",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -796,7 +796,7 @@
                     "quaternion",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Velocity Multiplier",
@@ -897,7 +897,7 @@
                     "quaternion",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Velocity Multiplier",
@@ -1994,13 +1994,13 @@
                 "Name": "Item 0",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Item 1",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -2161,7 +2161,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Min",
@@ -2170,7 +2170,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Max",
@@ -2179,7 +2179,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -2190,7 +2190,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -2473,7 +2473,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -2499,7 +2499,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -2537,7 +2537,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -2563,7 +2563,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -2635,7 +2635,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Damage",
@@ -2657,7 +2657,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -2689,7 +2689,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Health",
@@ -2727,7 +2727,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Max Health",
@@ -3352,7 +3352,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "B",
@@ -3364,7 +3364,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -3390,7 +3390,7 @@
                     "int",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -3402,7 +3402,7 @@
                     "int",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -3842,13 +3842,13 @@
                 "Name": "A",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "B",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -4319,7 +4319,7 @@
                 "Name": "Item",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Done",
@@ -4393,7 +4393,7 @@
                 "Name": "Value",
                 "Description": "",
                 "DataType": "rec room object",
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -4514,7 +4514,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Targets",
@@ -4531,7 +4531,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Closest Index",
@@ -4570,7 +4570,7 @@
                 "Name": "Value",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -4588,7 +4588,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Targets",
@@ -4605,7 +4605,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Farthest Index",
@@ -4656,7 +4656,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -4681,7 +4681,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Format",
@@ -4712,7 +4712,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -4921,7 +4921,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -5390,7 +5390,7 @@
                     "ai",
                     "combatant"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -5505,7 +5505,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -5612,7 +5612,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -5637,7 +5637,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -5696,7 +5696,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "B",
@@ -5705,7 +5705,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -5730,7 +5730,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "B",
@@ -5739,7 +5739,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -6694,7 +6694,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Tag",
@@ -6777,13 +6777,13 @@
                 "Name": "Then",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Else",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -6791,7 +6791,7 @@
                 "Name": "Result",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -6938,7 +6938,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Speed (m/s)",
@@ -6987,7 +6987,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Additional Speed (m/s)",
@@ -7042,7 +7042,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Speed (m/s)",
@@ -7386,7 +7386,7 @@
                 "Name": "",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -7581,7 +7581,7 @@
                     "vector3",
                     "color"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "End",
@@ -7592,7 +7592,7 @@
                     "vector3",
                     "color"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Progress",
@@ -7611,7 +7611,7 @@
                     "vector3",
                     "color"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -7628,7 +7628,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "B",
@@ -7637,7 +7637,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -7662,7 +7662,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "B",
@@ -7671,7 +7671,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -8152,7 +8152,7 @@
                 "Name": "Item",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -8316,7 +8316,7 @@
                 "Name": "Item",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -8417,7 +8417,7 @@
                     "int",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -8470,7 +8470,7 @@
                 "Name": "Item",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -8497,7 +8497,7 @@
                 "Name": "Item",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -8530,7 +8530,7 @@
                 "Name": "Item",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Index",
@@ -8602,7 +8602,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -8626,7 +8626,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -8652,7 +8652,7 @@
                     "quaternion",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -8899,7 +8899,7 @@
                     "int",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -8924,7 +8924,7 @@
                     "int",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -9028,7 +9028,7 @@
                 "Name": "Item",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -9049,13 +9049,13 @@
                 "Name": "Item 0",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Item 1",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -9080,7 +9080,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -9091,7 +9091,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -9108,7 +9108,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -9119,7 +9119,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -9136,7 +9136,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -9147,7 +9147,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -9166,7 +9166,7 @@
                     "quaternion",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -9179,7 +9179,7 @@
                     "quaternion",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -10776,7 +10776,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -10787,7 +10787,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -11942,7 +11942,7 @@
                 "Name": "Value",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -11975,7 +11975,7 @@
                 "Name": "Value",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -12102,7 +12102,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Tag",
@@ -12139,7 +12139,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Tags",
@@ -12167,7 +12167,7 @@
                 "Name": "",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -12175,7 +12175,7 @@
                 "Name": "",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -12269,7 +12269,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Position",
@@ -12284,7 +12284,7 @@
                     "quaternion",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Spawn Radius",
@@ -12339,7 +12339,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Position",
@@ -12354,7 +12354,7 @@
                     "quaternion",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Spawn Radius",
@@ -13233,7 +13233,7 @@
                 "Name": "Value",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -13922,7 +13922,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Position",
@@ -13965,7 +13965,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Position",
@@ -14008,7 +14008,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Rotation",
@@ -14017,7 +14017,7 @@
                     "quaternion",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -14054,7 +14054,7 @@
                     "rec room object",
                     "player"
                 ],
-                "IsList": true
+                "IsList": false
             },
             {
                 "Name": "Position",
@@ -14069,7 +14069,7 @@
                     "quaternion",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -15825,7 +15825,7 @@
                     "int",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -15837,7 +15837,7 @@
                     "int",
                     "vector3"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -16185,7 +16185,7 @@
                     "player",
                     "ai"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -16207,7 +16207,7 @@
                 "Name": "Target",
                 "Description": "",
                 "DataType": "rec room object",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -16285,7 +16285,7 @@
                 "Name": "Value",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -16535,7 +16535,7 @@
                 "Name": "Default",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -16543,7 +16543,7 @@
                 "Name": "Data",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -16563,7 +16563,7 @@
                 "Name": "Default",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [
@@ -16571,7 +16571,7 @@
                 "Name": "Data",
                 "Description": "",
                 "DataType": "any",
-                "IsList": true
+                "IsList": false
             }
         ]
     },
@@ -16706,7 +16706,7 @@
                     "float",
                     "int"
                 ],
-                "IsList": true
+                "IsList": false
             }
         ],
         "Outputs": [

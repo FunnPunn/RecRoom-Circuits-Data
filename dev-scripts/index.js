@@ -44,7 +44,7 @@ if(ShouldWrite) {
             let type = arr["ReadonlyType"]
             if (type in dict || type.replace("List<", "").replace(">", "") in dict){
               arr["ReadonlyType"] = dict[type]
-            } if (type.replace("List<", "").replace(">", "") in dict) {
+            } if (type.includes("List<") && type.replace("List<", "").replace(">", "") in dict) {
               IsList = true
             } if (type == "(T0, T1)") arr["ReadonlyType"] = "tuple";
             arr["DataType"] = arr["ReadonlyType"]
@@ -56,7 +56,7 @@ if(ShouldWrite) {
             let type = arr["ReadonlyType"]
             if (type in dict || type.replace("List<", "").replace(">", "") in dict){
               arr["ReadonlyType"] = dict[type]
-            } if (type.replace("List<", "").replace(">", "") in dict) {
+            } if (type.includes("List<") && type.replace("List<", "").replace(">", "") in dict) {
               IsList = true
             } if (type == "(T0, T1)") arr["ReadonlyType"] = "tuple";
             arr["DataType"] = arr["ReadonlyType"]
