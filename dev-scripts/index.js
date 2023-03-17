@@ -31,7 +31,7 @@ if(ShouldWrite) {
           }
           for(var arr of Ports["Inputs"]){
             let type = arr["ReadonlyType"]
-            if (type in dict || "List<".concat(type,">")){
+            if (type in dict || "List<".concat(type,">") in dict){
               arr["ReadonlyType"] = dict[type]
             }
             arr["DataType"] = arr["ReadonlyType"]
@@ -39,7 +39,7 @@ if(ShouldWrite) {
           }
           for(var arr of Ports["Outputs"]){
             let type = arr["ReadonlyType"]
-            if (type in dict || "List<".concat(type,">")){
+            if (type in dict || "List<".concat(type,">") in dict){
               arr["ReadonlyType"] = dict[type]
             }
             arr["DataType"] = arr["ReadonlyType"]
