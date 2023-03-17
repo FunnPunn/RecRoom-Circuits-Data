@@ -1,5 +1,8 @@
+const { json } = require("express")
 const fs = require("fs")
-let original_raw = fs.readFileSync("data/originalchips.json");
+let original_raw = fs.readFileSync("data/originalchips.json")
+let prts = JSON.parse(fs.readFileSync("data/ports.json"))["Ports"]
+
 let original = JSON.parse(original_raw)
 
 var Chips = Object.values(original)[0]
@@ -11,38 +14,53 @@ var key = Keys[0]
 
 let ShouldWrite = true
 
-console.log(Keys.length)
 var dict = {}
 var n = 0
 if(ShouldWrite) {
   var ndscs_in = []
   var ndscs_out = []
     for(var k of Keys){
-      n++
-      console.log(n)
       if(k["NodeDescs"][0] === undefined) {}
       else {
       var Ports = k["NodeDescs"][0]
       let ReadonlyTypeParams = Ports["ReadonlyTypeParams"]
       if(ReadonlyTypeParams[0] !== null){
           for(var [key, declar] of Object.entries(ReadonlyTypeParams)){
-              var newtypes = declar.replace("(", "").toLowerCase().replace(")", "").split(" ").filter((str) => str !== '' && str !== '|')
+              var oldtypes = declar.replace("(", "").toLowerCase().replace(")", "")
+              var newtypes = []
+              for(var prt of prts) {
+                if(oldtypes.includes(prt)) {
+                  newtypes.push(prt)
+                  oldtypes = oldtypes.replace(prt, "")
+                }
+              }
+              if(newtypes.length == 1) {
+                newtypes = newtypes[0]
+              }
               dict[key]=newtypes
           }
           for(var arr of Ports["Inputs"]){
+            let IsList = false
             let type = arr["ReadonlyType"]
-            if (type in dict || "List<".concat(type,">") in dict){
+            if (type in dict || type.replace("List<", "").replace(">", "") in dict){
               arr["ReadonlyType"] = dict[type]
-            }
+            } if (type.replace("List<", "").replace(">", "") in dict) {
+              IsList = true
+            } if (type == "(T0, T1)") arr["ReadonlyType"] = "tuple";
             arr["DataType"] = arr["ReadonlyType"]
+            arr["IsList"] = IsList
             delete arr["ReadonlyType"]
           }
           for(var arr of Ports["Outputs"]){
+            let IsList = false
             let type = arr["ReadonlyType"]
-            if (type in dict || "List<".concat(type,">") in dict){
+            if (type in dict || type.replace("List<", "").replace(">", "") in dict){
               arr["ReadonlyType"] = dict[type]
-            }
+            } if (type.replace("List<", "").replace(">", "") in dict) {
+              IsList = true
+            } if (type == "(T0, T1)") arr["ReadonlyType"] = "tuple";
             arr["DataType"] = arr["ReadonlyType"]
+            arr["IsList"] = IsList
             delete arr["ReadonlyType"]
           }
       } else{
@@ -63,7 +81,6 @@ if(ShouldWrite) {
           "Outputs": ndscs_out
         }
     }
-    console.log(Object.values(Out).length)
     fs.writeFileSync("data/chips.json", JSON.stringify(Out, null, 4))
 }
 /*
