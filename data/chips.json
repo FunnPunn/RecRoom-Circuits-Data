@@ -1158,7 +1158,7 @@
     },
     "Audio Get Length": {
         "Description": "Returns the length in seconds of the given audio reference.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -1184,7 +1184,7 @@
     },
     "Audio Player Get Audio": {
         "Description": "Returns the most recent audio reference that the target Audio Player has started playing.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -1210,7 +1210,7 @@
     },
     "Audio Player Get Max Rolloff Distance": {
         "Description": "Returns the furthest distance from the target Audio Player that the audio can be heard from.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -1410,7 +1410,7 @@
     },
     "Audio Player Set Max Rolloff Distance": {
         "Description": "Sets the maximum distance that audio from the target Audio Player can be heard from.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -1486,7 +1486,7 @@
     },
     "Audio Player Set Time Stamp": {
         "Description": "Sets the time stamp of the target Audio Player in seconds.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -2471,7 +2471,7 @@
     },
     "Clear Player Vignette": {
         "Description": "Clears any active screen vignette on the given player.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -5114,7 +5114,7 @@
     },
     "Get Closest": {
         "Description": "Finds the element in Targets that is closest in space to Origin, and returns it, its index in the list, and its distance to Origin.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -5202,7 +5202,7 @@
     },
     "Get Farthest": {
         "Description": "Finds the element in Targets that is farthest in space to Origin, and returns it, its index in the list, and its distance to Origin.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -6315,7 +6315,7 @@
     },
     "Player Get Time Zone": {
         "Description": "Returns the offset of the given player's local time zone from UTC in seconds.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -7666,7 +7666,7 @@
     },
     "HSV To Color": {
         "Description": "Return a color from the given hue, saturation, and value inputs. All inputs are in the range [0, 1].",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -8444,7 +8444,7 @@
     },
     "Laser Pointer Get Color": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -8470,7 +8470,7 @@
     },
     "Laser Pointer Get Enabled": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -8496,7 +8496,7 @@
     },
     "Laser Pointer Get Length": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -8522,7 +8522,7 @@
     },
     "Laser Pointer Set Color": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -8560,7 +8560,7 @@
     },
     "Laser Pointer Set Enabled": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -8598,7 +8598,7 @@
     },
     "Laser Pointer Set Length": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -10782,7 +10782,7 @@
     },
     "Parse Color": {
         "Description": "Attempt to parse the given string as a hexadecimal color in the '#RRGGBB' format.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -11482,7 +11482,7 @@
     },
     "Player Get Is Jumping Or Falling": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -11906,7 +11906,7 @@
     },
     "Player Owns Room Key": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -12963,7 +12963,7 @@
     },
     "Prompt Multiple Choice Player": {
         "Description": "Sends a watch notification to the specified player containing the prompt title and body, along with each of the answer choices on its own line. Once this watch notification is opened, the player can choose a response and hit \"ok,\" triggering the On Prompt Complete event. Since there is a delay between sending a notification and receiving the response in which other responses may be received, the Player output can be used to disambiguate multiple responses",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -14112,7 +14112,7 @@
     },
     "RGB To Color": {
         "Description": "Return a color from the given red, green, and blue inputs. All inputs are in the range [0, 1].",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -15316,7 +15316,7 @@
     },
     "Set Player Vignette": {
         "Description": "Apply a vignette of the given color to the given player. The vignette will be displayed at the given intensity for the given duration, and then fade out. The intensity must be between 0 and 1.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [

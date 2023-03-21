@@ -1,0 +1,249 @@
+{
+    "AI Died": {
+        "Description": "Runs when an AI dies.",
+        "IsBeta": true,
+        "Ports": [
+            {
+                "Name": "AI",
+                "Description": "",
+                "DataType": "ai",
+                "IsList": false
+            },
+            {
+                "Name": "Attacker",
+                "Description": "",
+                "DataType": "combatant",
+                "IsList": false
+            }
+        ]
+    },
+    "AI Spawned": {
+        "Description": "Runs when an AI spawns.",
+        "IsBeta": true,
+        "Ports": [
+            {
+                "Name": "AI",
+                "Description": "",
+                "DataType": "ai",
+                "IsList": false
+            }
+        ]
+    },
+    "Explosion Hit Player": {
+        "Description": "",
+        "IsBeta": false,
+        "Ports": [
+            {
+                "Name": "Explosion Source",
+                "Description": "",
+                "DataType": "explosion emitter",
+                "IsList": false
+            },
+            {
+                "Name": "Hit Player",
+                "Description": "",
+                "DataType": "player",
+                "IsList": false
+            },
+            {
+                "Name": "Body Part",
+                "Description": "",
+                "DataType": "int",
+                "IsList": false
+            },
+            {
+                "Name": "Damage",
+                "Description": "",
+                "DataType": "int",
+                "IsList": false
+            },
+            {
+                "Name": "Hit Position",
+                "Description": "",
+                "DataType": "vector3",
+                "IsList": false
+            },
+            {
+                "Name": "Hit Normal",
+                "Description": "",
+                "DataType": "vector3",
+                "IsList": false
+            }
+        ]
+    },
+    "Local Player Cancelled Interaction": {
+        "Description": "",
+        "IsBeta": true,
+        "Ports": [
+            {
+                "Name": "Target Player",
+                "Description": "",
+                "DataType": "player",
+                "IsList": false
+            }
+        ]
+    },
+    "Local Player Started Interaction": {
+        "Description": "",
+        "IsBeta": true,
+        "Ports": [
+            {
+                "Name": "Target Player",
+                "Description": "",
+                "DataType": "player",
+                "IsList": false
+            }
+        ]
+    },
+    "OnGameEnd": {
+        "Description": "Runs when game ends.",
+        "IsBeta": true,
+        "Ports": []
+    },
+    "OnGameStart": {
+        "Description": "Runs when game starts.",
+        "IsBeta": true,
+        "Ports": []
+    },
+    "Player Grabbed Object": {
+        "Description": "Runs when the player grabs an object.",
+        "IsBeta": true,
+        "Ports": [
+            {
+                "Name": "Object",
+                "Description": "",
+                "DataType": "rec room object",
+                "IsList": false
+            }
+        ]
+    },
+    "Player Joined": {
+        "Description": "Runs when a player joined the room.",
+        "IsBeta": false,
+        "Ports": [
+            {
+                "Name": "Player",
+                "Description": "",
+                "DataType": "player",
+                "IsList": false
+            }
+        ]
+    },
+    "Player Left": {
+        "Description": "Runs when a player leaves the room.",
+        "IsBeta": false,
+        "Ports": [
+            {
+                "Name": "Player",
+                "Description": "",
+                "DataType": "player",
+                "IsList": false
+            }
+        ]
+    },
+    "PlayerCollision": {
+        "Description": "Runs when 2 players collide.",
+        "IsBeta": true,
+        "Ports": [
+            {
+                "Name": "Player A",
+                "Description": "",
+                "DataType": "player",
+                "IsList": false
+            },
+            {
+                "Name": "Player B",
+                "Description": "",
+                "DataType": "player",
+                "IsList": false
+            }
+        ]
+    },
+    "Projectile Hit Player": {
+        "Description": "",
+        "IsBeta": false,
+        "Ports": [
+            {
+                "Name": "Firing Player",
+                "Description": "",
+                "DataType": "player",
+                "IsList": false
+            },
+            {
+                "Name": "Hit Player",
+                "Description": "",
+                "DataType": "player",
+                "IsList": false
+            },
+            {
+                "Name": "Projectile Source",
+                "Description": "",
+                "DataType": "projectile launcher",
+                "IsList": false
+            },
+            {
+                "Name": "Body Part",
+                "Description": "",
+                "DataType": "int",
+                "IsList": false
+            },
+            {
+                "Name": "Damage",
+                "Description": "",
+                "DataType": "int",
+                "IsList": false
+            },
+            {
+                "Name": "Hit Position",
+                "Description": "",
+                "DataType": "vector3",
+                "IsList": false
+            },
+            {
+                "Name": "Hit Normal",
+                "Description": "",
+                "DataType": "vector3",
+                "IsList": false
+            }
+        ]
+    },
+    "Room Authority Changed": {
+        "Description": "Runs when the room authority changes.",
+        "IsBeta": true,
+        "Ports": [
+            {
+                "Name": "New Authority",
+                "Description": "",
+                "DataType": "player",
+                "IsList": false
+            }
+        ]
+    },
+    "Room Loaded": {
+        "Description": "Runs when the room loads.",
+        "IsBeta": false,
+        "Ports": []
+    },
+    "Room Reset": {
+        "Description": "Runs when the room resets.",
+        "IsBeta": false,
+        "Ports": []
+    },
+    "Test Event": {
+        "Description": "Can be run manually through the makerpen menu.",
+        "IsBeta": false,
+        "Ports": []
+    },
+    "Update 30hz": {
+        "Description": "Runs 30 times per second.",
+        "IsBeta": false,
+        "Ports": [
+            {
+                "Name": "Delta Time",
+                "Description": "",
+                "DataType": "float",
+                "IsList": false
+            }
+        ]
+    }
+}
