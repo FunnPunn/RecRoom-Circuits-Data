@@ -6,7 +6,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Absolute Value",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -39,7 +39,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Acos",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -66,7 +66,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Consumable Activate",
                 "Inputs": [
                     {
                         "Name": "",
@@ -99,7 +99,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Add Currency",
                 "Inputs": [
                     {
                         "Name": "Run",
@@ -156,7 +156,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Add",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -191,7 +191,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Add Tag",
                 "Inputs": [
                     {
                         "Name": "",
@@ -233,7 +233,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Add Tags",
                 "Inputs": [
                     {
                         "Name": "",
@@ -275,7 +275,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Get Line of Sight Parameters",
                 "Inputs": [
                     {
                         "Name": "AI",
@@ -320,7 +320,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Get Target",
                 "Inputs": [
                     {
                         "Name": "AI",
@@ -347,7 +347,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Has Line of Sight To Target",
                 "Inputs": [
                     {
                         "Name": "AI",
@@ -388,7 +388,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Look At",
                 "Inputs": [
                     {
                         "Name": "",
@@ -441,7 +441,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -480,7 +480,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Path To",
                 "Inputs": [
                     {
                         "Name": "",
@@ -527,7 +527,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Rotate",
                 "Inputs": [
                     {
                         "Name": "",
@@ -570,7 +570,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Set Line of Sight Parameters",
                 "Inputs": [
                     {
                         "Name": "",
@@ -633,7 +633,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Set Pathing Speed",
                 "Inputs": [
                     {
                         "Name": "",
@@ -672,7 +672,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Set Patrol Point",
                 "Inputs": [
                     {
                         "Name": "",
@@ -711,7 +711,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Set Target",
                 "Inputs": [
                     {
                         "Name": "",
@@ -750,7 +750,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Start Combat Behavior",
                 "Inputs": [
                     {
                         "Name": "",
@@ -783,7 +783,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Stop Combat Behavior",
                 "Inputs": [
                     {
                         "Name": "",
@@ -816,7 +816,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "AI Stop Looking",
                 "Inputs": [
                     {
                         "Name": "",
@@ -849,7 +849,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ambience Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -869,7 +869,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "And",
                 "Inputs": [
                     {
                         "Name": "Input",
@@ -896,7 +896,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Angular Velocity Add (Deprecated)",
                 "Inputs": [
                     {
                         "Name": "Add Velocity",
@@ -950,7 +950,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Angular Velocity Add",
                 "Inputs": [
                     {
                         "Name": "Add Velocity",
@@ -1007,7 +1007,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Angular Velocity Set (Deprecated)",
                 "Inputs": [
                     {
                         "Name": "Set Velocity",
@@ -1055,7 +1055,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Angular Velocity Set",
                 "Inputs": [
                     {
                         "Name": "Set Velocity",
@@ -1106,7 +1106,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Asin",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -1133,7 +1133,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Atan2",
                 "Inputs": [
                     {
                         "Name": "Y",
@@ -1166,7 +1166,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Atan",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -1193,7 +1193,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Get Length",
                 "Inputs": [
                     {
                         "Name": "Audio",
@@ -1220,7 +1220,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Get Audio",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1247,7 +1247,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Get Max Rolloff Distance",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1274,7 +1274,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Get Playing",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1301,7 +1301,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Get Speed",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1328,7 +1328,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Get Time Stamp",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1355,7 +1355,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Get Volume",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1382,7 +1382,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Pause",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1415,7 +1415,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Play",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1454,7 +1454,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Set Max Rolloff Distance",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1493,7 +1493,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Set Speed",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1532,7 +1532,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Set Time Stamp",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1571,7 +1571,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Set Volume",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1610,7 +1610,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Audio Player Stop",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1643,7 +1643,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Background Objects Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -1663,7 +1663,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Beacon Get Color",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1690,7 +1690,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Beacon Get Enabled",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1717,7 +1717,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Beacon Get Height",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1744,7 +1744,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Beacon Set Color",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1783,7 +1783,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Beacon Set Enabled",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1822,7 +1822,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Beacon Set Height",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1861,7 +1861,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Bit And",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1894,7 +1894,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Bit Leading Zeros",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -1921,7 +1921,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Bit Nand",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1954,7 +1954,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Bit Not",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1981,7 +1981,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Bit Or",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2014,7 +2014,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Bit Pop Count",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2041,7 +2041,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Bit Rotate Left",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2074,7 +2074,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Bit Rotate Right",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2107,7 +2107,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Bit Shift Left",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2140,7 +2140,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Bit Shift Right",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2173,7 +2173,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Bit Trailing Zeros",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2200,7 +2200,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Bit Xor",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2233,7 +2233,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "bool Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2272,7 +2272,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "If",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2311,7 +2311,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Break Tuple",
                 "Inputs": [
                     {
                         "Name": "Tuple",
@@ -2344,7 +2344,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Button Get Is Pressed",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2371,7 +2371,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Button Get Text",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2398,7 +2398,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Button Set Text",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2437,7 +2437,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ceil",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2464,7 +2464,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ceil to Int",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2497,7 +2497,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Clamp",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2548,7 +2548,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Clear Player Vignette",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2581,7 +2581,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Clear Player World UI",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2614,7 +2614,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Clear Current Subtitle",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2647,7 +2647,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Collision Data Get Distance",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2674,7 +2674,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Collision Data Get Normal",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2701,7 +2701,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Collision Data Get Object",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2728,7 +2728,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Collision Data Get Player",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2755,7 +2755,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Collision Data Get Position",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2782,7 +2782,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Color Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -2802,7 +2802,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Color Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2841,7 +2841,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Color To Int",
                 "Inputs": [
                     {
                         "Name": "Color",
@@ -2868,7 +2868,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Combatant Get Ground Position",
                 "Inputs": [
                     {
                         "Name": "Combatant",
@@ -2899,7 +2899,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Combatant Get Health",
                 "Inputs": [
                     {
                         "Name": "Object",
@@ -2942,7 +2942,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Combatant Get Is Alive",
                 "Inputs": [
                     {
                         "Name": "Object",
@@ -2973,7 +2973,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Combatant Get Velocity",
                 "Inputs": [
                     {
                         "Name": "Combatant",
@@ -3010,7 +3010,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Combatant Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3049,7 +3049,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Combatant Receive Damage",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3108,7 +3108,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Combatant Set Health",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3151,7 +3151,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Combatant Set Max Health",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3194,7 +3194,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Combatant Split",
                 "Inputs": [
                     {
                         "Name": "Combatant",
@@ -3233,7 +3233,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Comment",
                 "Inputs": [],
                 "Outputs": []
             }
@@ -3246,7 +3246,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Consumable Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -3266,7 +3266,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Destination Room Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -3286,7 +3286,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Room Key Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -3306,7 +3306,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Cos",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -3333,7 +3333,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Costume Equip",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3372,7 +3372,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Costume Get Wearer",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3399,7 +3399,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Costume Unequip",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3438,7 +3438,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rec Room Object Get All with Tag",
                 "Inputs": [
                     {
                         "Name": "Tag",
@@ -3465,7 +3465,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rec Room Object Get Authority",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3492,7 +3492,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rec Room Object Get First with Tag",
                 "Inputs": [
                     {
                         "Name": "Tag",
@@ -3519,7 +3519,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rec Room Object Get Is Local Player Authority",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3546,7 +3546,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rec Room Object Get Last Equipping Player",
                 "Inputs": [
                     {
                         "Name": "Object",
@@ -3579,7 +3579,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rec Room Object Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3618,7 +3618,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rec Room Object Set Authority",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3657,7 +3657,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Consumable Deactivate",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3690,7 +3690,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Delay",
                 "Inputs": [
                     {
                         "Name": "Run",
@@ -3741,7 +3741,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Destination Room Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3780,7 +3780,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Dice Get Player Rolled",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3807,7 +3807,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Dice Get Result",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3834,7 +3834,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Dice Get Roll finished",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3861,7 +3861,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set HUD Element Enabled",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3900,7 +3900,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Distance",
                 "Inputs": [
                     {
                         "Name": "A",
@@ -3945,7 +3945,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Divide",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -3980,7 +3980,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Door Get Destination",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4007,7 +4007,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Door Get Locked",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4034,7 +4034,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Door Set Destination",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4073,7 +4073,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Door Set Locked",
                 "Inputs": [
                     {
                         "Name": "Set Locked",
@@ -4112,7 +4112,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Emitter Get Looping",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4139,7 +4139,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Emitter Get Playing",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4166,7 +4166,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Emitter Get Size",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4193,7 +4193,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Emitter Get Speed",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4220,7 +4220,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Emitter Set Color Id",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4259,7 +4259,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Emitter Set Color",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4298,7 +4298,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Emitter Set Looping",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4337,7 +4337,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Emitter Set Size",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4376,7 +4376,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Emitter Set Speed",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4415,7 +4415,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Emitter Start",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4448,7 +4448,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Emitter Stop",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4481,7 +4481,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Equals",
                 "Inputs": [
                     {
                         "Name": "A",
@@ -4514,7 +4514,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Event Definition",
                 "Inputs": [],
                 "Outputs": []
             }
@@ -4527,7 +4527,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Event Receiver",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -4547,7 +4547,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Event Sender",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4574,7 +4574,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Execution Integer Switch",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4607,7 +4607,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Execution String Switch",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4640,7 +4640,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Explosion Emitter Explode",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4673,7 +4673,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Explosion Emitter Get Explosion Color",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4700,7 +4700,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Explosion Emitter Get Damage",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4727,7 +4727,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Explosion Emitter Get Explosion Radius",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4754,7 +4754,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Explosion Emitter Set Explosion Color",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4793,7 +4793,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Explosion Emitter Set Damage",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4832,7 +4832,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Explosion Emitter Set Explosion Radius",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4871,7 +4871,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "float Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4910,7 +4910,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Floor",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -4937,7 +4937,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Floor to Int",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -4964,7 +4964,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Fog Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -4984,7 +4984,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Room Fog Modify",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -5029,7 +5029,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "For Each",
                 "Inputs": [
                     {
                         "Name": "",
@@ -5074,7 +5074,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "For",
                 "Inputs": [
                     {
                         "Name": "",
@@ -5125,7 +5125,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "From Rec Room Object",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5152,7 +5152,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get All Players",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5172,7 +5172,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Authority",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5192,7 +5192,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Currency Balance",
                 "Inputs": [
                     {
                         "Name": "Run",
@@ -5243,7 +5243,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Broadcasting Attendance",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5275,7 +5275,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Closest",
                 "Inputs": [
                     {
                         "Name": "Origin",
@@ -5332,7 +5332,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Get Element",
                 "Inputs": [
                     {
                         "Name": "List",
@@ -5365,7 +5365,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Farthest",
                 "Inputs": [
                     {
                         "Name": "Origin",
@@ -5422,7 +5422,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Any Player with Role",
                 "Inputs": [
                     {
                         "Name": "Role",
@@ -5449,7 +5449,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get First Tag",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5479,7 +5479,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Formatted Time",
                 "Inputs": [
                     {
                         "Name": "Universal Seconds",
@@ -5515,7 +5515,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Forward Vector",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5545,7 +5545,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get HUD Element Color",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5572,7 +5572,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get HUD Element Label",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5599,7 +5599,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get HUD Element Max Value",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5626,7 +5626,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get HUD Element Value",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5653,7 +5653,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Get Count",
                 "Inputs": [
                     {
                         "Name": "List",
@@ -5680,7 +5680,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Local Camera Forward",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5700,7 +5700,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Local Camera Rotation",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5720,7 +5720,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Local Camera Up",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5740,7 +5740,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Local Player",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5760,7 +5760,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get New Line",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5780,7 +5780,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Rotation",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5810,7 +5810,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Party Of Player",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5837,7 +5837,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player Account Name",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -5864,7 +5864,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player By Account Name",
                 "Inputs": [
                     {
                         "Name": "Name",
@@ -5891,7 +5891,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player By Display Name",
                 "Inputs": [
                     {
                         "Name": "Name",
@@ -5918,7 +5918,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Leaderboard Get Player Stat",
                 "Inputs": [
                     {
                         "Name": "Run",
@@ -5969,7 +5969,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player Season League Name",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -5996,7 +5996,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get All Players With Role",
                 "Inputs": [
                     {
                         "Name": "Role Name",
@@ -6023,7 +6023,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player World UI Enabled",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6050,7 +6050,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player World UI Primary Bar Color",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6077,7 +6077,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player World UI Primary Bar Enabled",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6104,7 +6104,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player World UI Primary Bar Max Value",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6131,7 +6131,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player World UI Primary Bar Value",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6158,7 +6158,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player World UI Secondary Bar Color",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6185,7 +6185,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player World UI Secondary Bar Enabled",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6212,7 +6212,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player World UI Secondary Bar Max Value",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6239,7 +6239,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player World UI Secondary Bar Value",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6266,7 +6266,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player World UI Text Color",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6293,7 +6293,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player World UI Text Enabled",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6320,7 +6320,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Player World UI Text Value",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6347,7 +6347,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Position",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6379,7 +6379,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Time Get Precise Seconds",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -6399,7 +6399,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Room Authority",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -6419,7 +6419,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Time Get Universal Seconds",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -6439,7 +6439,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Time Get Universal Time",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -6489,7 +6489,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Tags",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6519,7 +6519,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Get Time Zone",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -6546,7 +6546,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Time Get Unsynced Universal Seconds",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -6566,7 +6566,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Time Get Unsynced Universal Time",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -6616,7 +6616,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Up Vector",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6646,7 +6646,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Velocity",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6676,7 +6676,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Go To Room",
                 "Inputs": [
                     {
                         "Name": "",
@@ -6715,7 +6715,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Greater Than",
                 "Inputs": [
                     {
                         "Name": "A",
@@ -6754,7 +6754,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Greater or Equal",
                 "Inputs": [
                     {
                         "Name": "A",
@@ -6793,7 +6793,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Add Boost Fuel",
                 "Inputs": [
                     {
                         "Name": "",
@@ -6832,7 +6832,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Apply Boost",
                 "Inputs": [
                     {
                         "Name": "",
@@ -6871,7 +6871,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Get Boost Fuel",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6898,7 +6898,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Get Driving Enabled",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6925,7 +6925,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Get Engine Torque Multiplier",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6952,7 +6952,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Get Seated Player",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6985,7 +6985,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Get Wheel Friction Multiplier",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7012,7 +7012,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Set Driving Enabled",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7051,7 +7051,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Set Engine Torque Multiplier",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7090,7 +7090,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Set Seated Player",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7141,7 +7141,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Set Wheel Friction Multiplier",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7180,7 +7180,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Unseat Player From Seat",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7225,7 +7225,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Ground Vehicle Unseat Player",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7270,7 +7270,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Add Auto Aim Role",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7309,7 +7309,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Apply Recoil",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7366,7 +7366,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Get Supports Reload",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7393,7 +7393,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Get Current Ammo",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7420,7 +7420,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Get Firing Direction",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7453,7 +7453,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Get Is Reloading",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7480,7 +7480,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Get Max Ammo",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7507,7 +7507,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Get Rate Of Fire",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7534,7 +7534,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Get Reload Duration",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7561,7 +7561,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Remove Auto Aim Role",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7600,7 +7600,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Set ADS Enabled",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7639,7 +7639,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Set Auto Aim Roles",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7678,7 +7678,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Set Supports Reload",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7717,7 +7717,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Set Current Ammo",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7756,7 +7756,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Set Max Ammo",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7795,7 +7795,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Set Rate Of Fire",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7834,7 +7834,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Gun Handle Set Reload Duration",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7873,7 +7873,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Has Tag",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7909,7 +7909,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "HSV To Color",
                 "Inputs": [
                     {
                         "Name": "Hue",
@@ -7948,7 +7948,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "HUD Element Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -7968,7 +7968,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "If Value",
                 "Inputs": [
                     {
                         "Name": "If",
@@ -8007,7 +8007,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "If Local Player Is Authority",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8040,7 +8040,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "If Local Player Is Room Authority",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8073,7 +8073,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "If Local Player Should Run",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8112,7 +8112,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "If Player Is Local",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8151,7 +8151,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Velocity Add",
                 "Inputs": [
                     {
                         "Name": "Add Velocity",
@@ -8205,7 +8205,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Velocity Reflect",
                 "Inputs": [
                     {
                         "Name": "Reflect Velocity",
@@ -8265,7 +8265,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Velocity Set",
                 "Inputs": [
                     {
                         "Name": "Set Velocity",
@@ -8313,7 +8313,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Interaction Volume Get Interaction Prompt",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8340,7 +8340,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Interaction Volume Get Is Locked",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8367,7 +8367,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Interaction Volume Set Interaction Prompt",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8406,7 +8406,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Interaction Volume Set Locked",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8445,7 +8445,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "int Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8484,7 +8484,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Int to Float",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -8511,7 +8511,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Invisible Collision Get Blocks Players",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8538,7 +8538,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Invisible Collision Get Enabled",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8565,7 +8565,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Invisible Collision Set Blocks Players",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8604,7 +8604,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Invisible Collision Set Enabled",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8643,7 +8643,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Is Event Instance",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -8663,7 +8663,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Get Is Private Instance",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -8683,7 +8683,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Is Valid",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8710,7 +8710,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Laser Pointer Get Color",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8737,7 +8737,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Laser Pointer Get Enabled",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8764,7 +8764,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Laser Pointer Get Length",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8791,7 +8791,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Laser Pointer Set Color",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8830,7 +8830,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Laser Pointer Set Enabled",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8869,7 +8869,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Laser Pointer Set Length",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8908,7 +8908,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Lerp",
                 "Inputs": [
                     {
                         "Name": "Start",
@@ -8962,7 +8962,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Less Than",
                 "Inputs": [
                     {
                         "Name": "A",
@@ -9001,7 +9001,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Less or Equal",
                 "Inputs": [
                     {
                         "Name": "A",
@@ -9040,7 +9040,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Get Angle",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9067,7 +9067,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Get Color",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9094,7 +9094,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Get Enabled",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9121,7 +9121,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Get Intensity",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9148,7 +9148,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Get Range",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9175,7 +9175,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Get Softness",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9202,7 +9202,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Get Specular Contribution",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9229,7 +9229,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Set Angle",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9268,7 +9268,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Set Color Id",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9307,7 +9307,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Set Color",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9346,7 +9346,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Set Intensity",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9385,7 +9385,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Set Range",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9424,7 +9424,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Set Softness",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9463,7 +9463,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Set Specular Contribution",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9502,7 +9502,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Turn Off",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9535,7 +9535,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Light Turn On",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9568,7 +9568,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Add",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9607,7 +9607,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List All True",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9634,7 +9634,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Any True",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9661,7 +9661,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List<bool> Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9700,7 +9700,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List<Color> Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9739,7 +9739,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Concat",
                 "Inputs": [
                     {
                         "Name": "List 1",
@@ -9772,7 +9772,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Contains",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9805,7 +9805,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List<Rec Room Object> Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9844,7 +9844,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List<Destination Room> Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9883,7 +9883,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Divide",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9918,7 +9918,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List<float> Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9957,7 +9957,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Get All Indices Of",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9990,7 +9990,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Get First Index Of",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -10023,7 +10023,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Insert",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10068,7 +10068,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List<int> Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10107,7 +10107,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Max",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -10140,7 +10140,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Min",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -10173,7 +10173,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Multiply",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -10210,7 +10210,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List<Player> Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10249,7 +10249,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List<Quaternion> Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10288,7 +10288,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Remove At",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10327,7 +10327,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Remove Last",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10360,7 +10360,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Shuffle",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10393,7 +10393,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Sort",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10436,7 +10436,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List<string> Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10475,7 +10475,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Subtract",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -10510,7 +10510,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Sum",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -10545,7 +10545,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List<Vector3> Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10584,7 +10584,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Logarithm",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -10617,7 +10617,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Log String",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10650,7 +10650,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Create",
                 "Inputs": [
                     {
                         "Name": "Item",
@@ -10677,7 +10677,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Make Tuple",
                 "Inputs": [
                     {
                         "Name": "Item 0",
@@ -10710,7 +10710,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Max",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -10743,7 +10743,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Min",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -10776,7 +10776,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Modulo",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -10809,7 +10809,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Multiply",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -10846,7 +10846,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Music Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -10866,7 +10866,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Nand",
                 "Inputs": [
                     {
                         "Name": "Input",
@@ -10893,7 +10893,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Noise",
                 "Inputs": [
                     {
                         "Name": "Point",
@@ -10920,7 +10920,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Nor",
                 "Inputs": [
                     {
                         "Name": "Input",
@@ -10947,7 +10947,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Not",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -10974,7 +10974,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Unequip Object",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11013,7 +11013,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Or",
                 "Inputs": [
                     {
                         "Name": "Input",
@@ -11040,7 +11040,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Overlap Sphere",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11085,7 +11085,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Parse Bool",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -11118,7 +11118,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Parse Color",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -11151,7 +11151,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Parse Float",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -11184,7 +11184,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Parse Int",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -11217,7 +11217,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Piston Get Acceleration",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11244,7 +11244,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Piston Get Distance",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11271,7 +11271,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Piston Get Target Distance",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11298,7 +11298,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Piston Get Max Distance",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11325,7 +11325,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Piston Get Speed",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11352,7 +11352,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Piston Set Acceleration",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11391,7 +11391,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Piston Set Distance",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11430,7 +11430,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Piston Set Target Distance",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11469,7 +11469,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Piston Set Max Distance",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11508,7 +11508,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Piston Set Speed",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11547,7 +11547,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Add Role",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11592,7 +11592,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Equip Object to Dominant Hand",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11649,7 +11649,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Equip Object to Off Hand",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11706,7 +11706,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Get All with Tag",
                 "Inputs": [
                     {
                         "Name": "Tag",
@@ -11733,7 +11733,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Get Dominant Hand Is Right",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -11760,7 +11760,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Get Equipped Objects",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -11811,7 +11811,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Get First with Tag",
                 "Inputs": [
                     {
                         "Name": "Tag",
@@ -11838,7 +11838,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Get Is Jumping Or Falling",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -11871,7 +11871,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Get Is Local",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11898,7 +11898,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Get Room Index",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -11925,7 +11925,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Has Role",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11958,7 +11958,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Holster Object",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12015,7 +12015,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Get Is Authority Of",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12048,7 +12048,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Is In Party",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12075,7 +12075,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Get Is Room Owner",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12102,7 +12102,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Left Hand Finger Direction",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12129,7 +12129,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Left Hand Rotation",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12156,7 +12156,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Left Hand Position",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12183,7 +12183,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Left Hand Thumb Direction",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12210,7 +12210,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Left Hand Velocity",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12237,7 +12237,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12276,7 +12276,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Owns Room Key",
                 "Inputs": [
                     {
                         "Name": "Run",
@@ -12327,7 +12327,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Remove Role",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12366,7 +12366,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Right Hand Finger Direction",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12393,7 +12393,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Right Hand Rotation",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12420,7 +12420,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Right Hand Position",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12447,7 +12447,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Right Hand Thumb Direction",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12474,7 +12474,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Right Hand Velocity",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12501,7 +12501,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Subscribes To Room Owner",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12534,7 +12534,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Unequip From Player",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12579,7 +12579,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Unequip from Slots",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12648,7 +12648,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player World UI",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -12668,7 +12668,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Power",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -12701,7 +12701,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Fire Projectile",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12740,7 +12740,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Get Projectile Color",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12767,7 +12767,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Get Projectile Count",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12794,7 +12794,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Get Hand Damage",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12821,7 +12821,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Get Head Damage",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12848,7 +12848,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Get Projectile Lifetime",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12875,7 +12875,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Get Projectile Speed",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12902,7 +12902,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Get Projectile Spread",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12929,7 +12929,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Get Torso Damage",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12956,7 +12956,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Set Projectile Color",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12995,7 +12995,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Set Projectile Count",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13034,7 +13034,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Set Firing Player",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13073,7 +13073,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Set Hand Damage",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13112,7 +13112,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Set Head Damage",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13151,7 +13151,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Set Projectile Lifetime",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13190,7 +13190,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Set Projectile Speed",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13229,7 +13229,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Set Projectile Spread",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13268,7 +13268,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Projectile Launcher Set Torso Damage",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13307,7 +13307,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Prompt Local Player",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13364,7 +13364,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Prompt Multiple Choice Player",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13445,7 +13445,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Create Angle Axis",
                 "Inputs": [
                     {
                         "Name": "Angle",
@@ -13478,7 +13478,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Create Euler Angles",
                 "Inputs": [
                     {
                         "Name": "Angles",
@@ -13505,7 +13505,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Create From To",
                 "Inputs": [
                     {
                         "Name": "From",
@@ -13538,7 +13538,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Create Look",
                 "Inputs": [
                     {
                         "Name": "Forward",
@@ -13571,7 +13571,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Create",
                 "Inputs": [
                     {
                         "Name": "X",
@@ -13616,7 +13616,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Dot",
                 "Inputs": [
                     {
                         "Name": "Lhs",
@@ -13649,7 +13649,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Euler Angles",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -13676,7 +13676,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Get Angle Axis",
                 "Inputs": [
                     {
                         "Name": "Quaternion",
@@ -13709,7 +13709,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Inverse",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -13736,7 +13736,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13775,7 +13775,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Normalize",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -13802,7 +13802,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Rotate Towards",
                 "Inputs": [
                     {
                         "Name": "From",
@@ -13841,7 +13841,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rotate Vector",
                 "Inputs": [
                     {
                         "Name": "Rotation",
@@ -13874,7 +13874,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Slerp",
                 "Inputs": [
                     {
                         "Name": "Start",
@@ -13913,7 +13913,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Quaternion Split",
                 "Inputs": [
                     {
                         "Name": "Quaternion",
@@ -13958,7 +13958,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Random Float",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14003,7 +14003,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Random From List (Deprecated)",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14042,7 +14042,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Random From List",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14081,7 +14081,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Random Int",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14126,7 +14126,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Raycast",
                 "Inputs": [
                     {
                         "Name": "Start Position",
@@ -14195,7 +14195,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Remove Tag",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14237,7 +14237,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Remove Tags",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14306,7 +14306,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rec Room Object Reset",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14339,7 +14339,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Reset Player World UI",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14372,7 +14372,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Reset Room",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14392,7 +14392,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn (Deprecated)",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14467,7 +14467,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14542,7 +14542,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "RGB To Color",
                 "Inputs": [
                     {
                         "Name": "Red",
@@ -14581,7 +14581,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Room Background Objects Modify",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -14626,7 +14626,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Room Background Objects Reset",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -14659,7 +14659,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Room Fog Reset",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -14692,7 +14692,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Room Index Get Player",
                 "Inputs": [
                     {
                         "Name": "Room Index",
@@ -14719,7 +14719,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Room Skydome Modify",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -14764,7 +14764,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Room Skydome Reset",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -14797,7 +14797,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Room Sun Reset",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -14830,7 +14830,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rotator Get Target Rotation",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -14857,7 +14857,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rotator Get Rotation Acceleration",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -14884,7 +14884,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rotator Get Rotation",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -14911,7 +14911,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rotator Get Rotation Speed",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -14938,7 +14938,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rotator Set Target Rotation",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14977,7 +14977,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rotator Set Rotation Acceleration",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15016,7 +15016,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rotator Set Rotation",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15055,7 +15055,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Rotator Set Rotation Speed",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15094,7 +15094,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Round",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -15121,7 +15121,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Round to Int",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -15148,7 +15148,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Sample Audio Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -15168,7 +15168,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Seat Get Lock Players In",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -15195,7 +15195,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Seat Get Lock Players Out",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -15222,7 +15222,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Seat Get Seated Player",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -15249,7 +15249,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Seat Set Lock Players In",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15288,7 +15288,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Seat Set Lock Players Out",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15327,7 +15327,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Seat Set Seated Player",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15372,7 +15372,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Seat Unseat Player",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15405,7 +15405,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Self",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -15425,7 +15425,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Sequence",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15458,7 +15458,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Camera Shake",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15503,7 +15503,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "List Set Element",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15548,7 +15548,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set HUD Element Color",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15587,7 +15587,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set HUD Element Label",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15626,7 +15626,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set HUD Element Max Value",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15665,7 +15665,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set HUD Element Value",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15704,7 +15704,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Leaderboard Set Local Player Stat",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15743,7 +15743,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player Name Color",
                 "Inputs": [
                     {
                         "Name": "Set",
@@ -15782,7 +15782,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player Vignette",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15833,7 +15833,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Display Player World UI",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15872,7 +15872,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player World UI Primary Bar Color",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15911,7 +15911,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player World UI Primary Bar Enabled",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15950,7 +15950,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player World UI Primary Bar Max Value",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15989,7 +15989,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player World UI Primary Bar Value",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16028,7 +16028,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player World UI Secondary Bar Color",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16067,7 +16067,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player World UI Secondary Bar Enabled",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16106,7 +16106,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player World UI Secondary Bar Max Value",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16145,7 +16145,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player World UI Secondary Bar Value",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16184,7 +16184,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player World UI Text Color",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16223,7 +16223,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player World UI Text Enabled",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16262,7 +16262,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Player World UI Text Value",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16301,7 +16301,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Position (Deprecated)",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16349,7 +16349,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Position",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16397,7 +16397,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Rotation",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16448,7 +16448,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set Transform",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16505,7 +16505,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "SFX Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -16525,7 +16525,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "SFX Get Volume",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -16552,7 +16552,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "SFX Get Is Playing",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -16579,7 +16579,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "SFX Play",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16612,7 +16612,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "SFX Set Volume",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16651,7 +16651,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "SFX Stop",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16684,7 +16684,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set HUD Element Label Enabled",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16723,7 +16723,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Set HUD Element Value Text Enabled",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16762,7 +16762,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Show Notification",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16801,7 +16801,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Player Show Subtitle",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16852,7 +16852,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Sin",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -16879,7 +16879,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Skydome Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -16899,7 +16899,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Spawner Reset",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16932,7 +16932,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Spawner Internal Start Spawning",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16983,7 +16983,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn Point Add Avoid Role",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17028,7 +17028,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn Point Add Avoid Tag",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17067,7 +17067,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn Point Add Spawn Role",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17112,7 +17112,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn Point Add Spawn Tag",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17151,7 +17151,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn Point Get Active",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -17178,7 +17178,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn Point Remove Avoid Role",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17217,7 +17217,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn Point Remove Avoid Tag",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17256,7 +17256,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn Point Remove Spawn Role",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17295,7 +17295,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn Point Remove Spawn Tag",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17334,7 +17334,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn Point Respawn Player At Respawn Point",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17385,7 +17385,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn Point Respawn Player",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17430,7 +17430,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Respawn Point Set Active",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17469,7 +17469,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Spherecast",
                 "Inputs": [
                     {
                         "Name": "Start Position",
@@ -17544,7 +17544,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Stop Camera Shake",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17577,7 +17577,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "String Concat",
                 "Inputs": [
                     {
                         "Name": "Separator",
@@ -17610,7 +17610,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "String Contains",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17643,7 +17643,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "String Format",
                 "Inputs": [
                     {
                         "Name": "Format",
@@ -17676,7 +17676,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "String Length",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17703,7 +17703,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "string Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17742,7 +17742,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "String Split",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17775,7 +17775,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "String Split At Index",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17808,7 +17808,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "String Index Of",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17841,7 +17841,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "String To Lower",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17868,7 +17868,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "String To Upper",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17895,7 +17895,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Event Sender",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17934,7 +17934,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Event Sender - Bool",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17979,7 +17979,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Event Sender - Float",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18024,7 +18024,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Event Sender - Int",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18069,7 +18069,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Event Sender - String",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18114,7 +18114,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Event Sender - String, Bool",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18165,7 +18165,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Event Sender - String, Float",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18216,7 +18216,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Event Sender - String, Int",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18267,7 +18267,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Event Sender - String, String",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18318,7 +18318,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Object Get Property - Bool",
                 "Inputs": [
                     {
                         "Name": "Studio Object",
@@ -18351,7 +18351,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Object Get Property - Float",
                 "Inputs": [
                     {
                         "Name": "Studio Object",
@@ -18384,7 +18384,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Object Get Property - Int",
                 "Inputs": [
                     {
                         "Name": "Studio Object",
@@ -18417,7 +18417,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Studio Object Get Property - String",
                 "Inputs": [
                     {
                         "Name": "Studio Object",
@@ -18450,7 +18450,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "String Substring",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -18489,7 +18489,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Subtract",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -18524,7 +18524,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Sun Constant",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -18544,7 +18544,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Room Sun Modify",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -18595,7 +18595,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Tan",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -18622,7 +18622,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Clear Screen",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18655,7 +18655,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Print Text To Screen",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18700,7 +18700,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Text Get Color",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18727,7 +18727,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Text Get Text",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18754,7 +18754,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Text Set Color Id",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18793,7 +18793,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Text Set Color",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18832,7 +18832,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Text Set Material",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18871,7 +18871,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Text Set Text",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18910,7 +18910,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "To Combatant",
                 "Inputs": [
                     {
                         "Name": "Player or AI",
@@ -18940,7 +18940,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "To Rec Room Object",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18967,7 +18967,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Toggle Button Get Is Pressed",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18994,7 +18994,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Toggle Button Set Is Pressed",
                 "Inputs": [
                     {
                         "Name": "",
@@ -19033,7 +19033,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "To String",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -19060,7 +19060,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Trigger Handle Get Primary Action Held",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -19087,7 +19087,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Trigger Volume Get Filter Role",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -19114,7 +19114,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Trigger Volume Get Filter Tags",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -19141,7 +19141,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Trigger Volume Get Object Count",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -19168,7 +19168,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Trigger Volume Get Player Count",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -19195,7 +19195,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Trigger Volume Get Objects",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -19222,7 +19222,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Trigger Volume Get Players",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -19249,7 +19249,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Trigger Volume Set Filter Role",
                 "Inputs": [
                     {
                         "Name": "",
@@ -19288,7 +19288,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Trigger Volume Set Filter Tags",
                 "Inputs": [
                     {
                         "Name": "",
@@ -19327,7 +19327,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Value Integer Switch",
                 "Inputs": [
                     {
                         "Name": "Match",
@@ -19360,7 +19360,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Value String Switch",
                 "Inputs": [
                     {
                         "Name": "Match",
@@ -19393,7 +19393,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Vector3 Cross",
                 "Inputs": [
                     {
                         "Name": "Lhs",
@@ -19426,7 +19426,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Vector3 Dot",
                 "Inputs": [
                     {
                         "Name": "Lhs",
@@ -19459,7 +19459,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Vector3 Variable",
                 "Inputs": [
                     {
                         "Name": "",
@@ -19498,7 +19498,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Vector3 Normalize",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -19525,7 +19525,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Vector3 Scale",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -19561,7 +19561,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Vector3 Create",
                 "Inputs": [
                     {
                         "Name": "X",
@@ -19600,7 +19600,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Vector Component Get Vector",
                 "Inputs": [
                     {
                         "Name": "Direction",
@@ -19633,7 +19633,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Vector Get Magnitude",
                 "Inputs": [
                     {
                         "Name": "Vector3",
@@ -19660,7 +19660,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Vector3 Split",
                 "Inputs": [
                     {
                         "Name": "Vector3",
@@ -19699,7 +19699,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Welcome Mat Get Enabled",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -19726,7 +19726,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
-                "Name": "",
+                "Name": "Welcome Mat Set Enabled",
                 "Inputs": [
                     {
                         "Name": "SetEnabled",

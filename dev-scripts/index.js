@@ -80,14 +80,14 @@ if(ShouldWrite) {
             delete arr["ReadonlyType"]
           }
       } else {
-        k["NodeDescs"][0]["Outputs"] = k["NodeDescs"][0]["Outputs"].toLowerCase()
-        k["NodeDescs"][0]["Inputs"] = k["NodeDescs"][0]["Inputs"].toLowerCase() 
+        k["NodeDescs"][nodedesc]["Outputs"] = k["NodeDescs"][nodedesc]["Outputs"].toLowerCase()
+        k["NodeDescs"][nodedesc]["Inputs"] = k["NodeDescs"][nodedesc]["Inputs"].toLowerCase() 
       }
-        ndscs_in = k["NodeDescs"][0]["Inputs"]
-        ndscs_out = k["NodeDescs"][0]["Outputs"]
+        ndscs_in = k["NodeDescs"][nodedesc]["Inputs"]
+        ndscs_out = k["NodeDescs"][nodedesc]["Outputs"]
 
         k["Functions"] = [{
-          "Name": "",
+          "Name": k["NodeDescs"][nodedesc]["Name"],
           "Inputs": ndscs_in,
           "Outputs": ndscs_out
         }]
