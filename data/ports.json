@@ -1,62 +1,289 @@
-{
-    "Ports" : [
-        "exec",
-        "bool",
-        "float",
-        "int",
-        "quaternion",
-        "string",
-        "vector3",
-        "rec room object",
-        "player",
+{   
+    "Union": {
+        "Color": "#F6EEE8",
+        "HasDefaultValue": false,
+        "PortModel": "data"
+    },
+    "CustomPorts": {},
+    "Ports" : {
+        "exec": {
+            "Color": "#F55C1A",
+            "HasDefaultValue": false,
+            "PortModel": "exec"
+        },
+        "bool": {
+            "Color": "#EA2E50",
+            "HasDefaultValue": true,
+            "PortModel": "data"
+        },
+        "float": {
+            "Color": "#186BDD",
+            "HasDefaultValue": true,
+            "PortModel": "data"
+        },
+        "int": {
+            "Color": "#106522",
+            "HasDefaultValue": true,
+            "PortModel": "data"
+        },
+        "quaternion": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "string": {
+            "Color": "#784283",
+            "HasDefaultValue": true,
+            "PortModel": "data"
+        },
+        "vector3": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "rec room object": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "studio object": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "player": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": true,
+            "PortModel": "data"
+        },
         
-        "color",
-        "audio",
-        "collision data",
-        "hud element",
-        "consumable",
-        "destination room",
-        "player world ui",
-        "room key",
-        "tuple",
+        "color": {
+            "Color": "#004FB9",
+            "HasDefaultValue": true,
+            "PortModel": "data"
+        },
+        "audio": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "collision data": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "hud element": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "consumable": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "destination room": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "player world ui": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "room key": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "tuple": {
+            "Color": "#F6EEE8",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
 
-        "any",
+        "any": {
+            "Color": "#F6EEE8",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
         
-        "background objects",
-        "fog",
-        "skydome",
-        "sun",
+        "background objects": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "fog": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "skydome": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "sun": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
         
-        "audio player",
-        "beacon",
-        "button",
-        "costume",
-        "die",
-        "light",
-        "emitter",
-        "explosion emitter",
-        "ground vehicle",
-        "interaction volume",
-        "invisible collision",
-        "piston",
-        "player spawn point",
-        "projectile launcher",
-        "rotator",
-        "room door",
-        "seat",
-        "sfx",
-        "text",
-        "text screen",
-        "toggle button",
-        "trigger handle",
-        "trigger volume",
-        "vector component",
-        "welcome mat",
-        "ai",
-        "combatant",
-        "gun handle",
-        "laser pointer",
-        "patrol point",
-        "sun direction"
-    ]
+        "audio player": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "beacon": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "button": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "costume": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "die": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "light": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "emitter": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "explosion emitter": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "ground vehicle": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "interaction volume": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "invisible collision": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "piston": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "player spawn point": {
+            "Color": "",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "projectile launcher": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "rotator": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "room door": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "seat": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "sfx": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "text": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "text screen": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "toggle button": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "trigger handle": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "trigger volume": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "vector component": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "welcome mat": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "ai": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "combatant": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "gun handle": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "laser pointer": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "patrol point": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        },
+        "sun direction": {
+            "Color": "#F5C51F",
+            "HasDefaultValue": false,
+            "PortModel": "data"
+        }
+    }
 }

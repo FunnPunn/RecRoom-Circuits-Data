@@ -1,7 +1,7 @@
 const { json } = require("express")
 const fs = require("fs")
 let original_raw = fs.readFileSync("data/originalchips.json")
-let prts = JSON.parse(fs.readFileSync("data/ports.json"))["Ports"]
+let prts = Object.keys(JSON.parse(fs.readFileSync("data/ports.json"))["Ports"])
 
 let original = JSON.parse(original_raw)
 
@@ -9,67 +9,89 @@ var Chips = Object.values(original)[0]
 var UUIDS = Object.keys(Chips)
 var Keys = Object.values(Chips)
 var Out = {}
-
 var key = Keys[0]
 
 let ShouldWrite = true
 
+function RetrieveReadOnly(RTP){
+  var returndict = {}
+  for(var [RTP_KEY, RTP_VAL] of Object.entries(RTP)) {
+    var tps = RTP_VAL.replace("(", "").toLowerCase().replace(")", "")
+    var mlist = []
+    for(var prt of prts){
+      if (tps.includes(prt)) {
+        mlist.push(prt)
+      }
+    } if (mlist.length == 1) {
+      mlist = mlist[0]
+    }
+    returndict[RTP_KEY] = mlist
+  }
+  //console.log(returndict)
+  return returndict;
+}
+
 var dict = {}
-var n = 0
 if(ShouldWrite) {
-  var ndscs_in = []
-  var ndscs_out = []
     for(var k of Keys){
       if(k["NodeDescs"][0] === undefined) {}
       else {
+      for(var nodedesc in k["NodeDescs"]) {
+      var ndscs_in = []
+      var ndscs_out = []
       var Ports = k["NodeDescs"][0]
       let ReadonlyTypeParams = Ports["ReadonlyTypeParams"]
       if(ReadonlyTypeParams[0] !== null){
-          for(var [key, declar] of Object.entries(ReadonlyTypeParams)){
-              var oldtypes = declar.replace("(", "").toLowerCase().replace(")", "")
-              var newtypes = []
-              for(var prt of prts) {
-                if(oldtypes.includes(prt)) {
-                  newtypes.push(prt)
-                  oldtypes = oldtypes.replace(prt, "")
-                }
-              }
-              if(newtypes.length == 1) {
-                newtypes = newtypes[0]
-              }
-              dict[key]=newtypes
-          }
+          const params = RetrieveReadOnly(ReadonlyTypeParams)
           for(var arr of Ports["Inputs"]){
-            let IsList = false
-            let type = arr["ReadonlyType"]
-            if (type in dict || type.replace("List<", "").replace(">", "") in dict){
-              arr["ReadonlyType"] = dict[type]
-            } if (type.includes("List<") && type.replace("List<", "").replace(">", "") in dict) {
-              IsList = true
-            } if (type == "(T0, T1)") arr["ReadonlyType"] = "tuple";
+            let isList = false
+            if (arr["ReadonlyType"] in params) {
+              arr["ReadonlyType"] = params[arr["ReadonlyType"]]
+            } else if(arr["ReadonlyType"].replace("List<", "").replace(">", "") in params) {
+              arr["ReadonlyType"] = params[arr["ReadonlyType"].replace("List<", "").replace(">", "")]
+              isList = true
+            } else if (arr["ReadonlyType"] == "(T0, T1)") {
+              arr["ReadonlyType"] = "tuple"
+            } if(arr["ReadonlyType"].includes("List<")) {
+              arr["ReadonlyType"] = arr["ReadonlyType"].replace("List<", "").replace(">", "")
+              isList = true
+            }
+            if(typeof(arr["ReadonlyType"]) == "string") arr["ReadonlyType"] = arr["ReadonlyType"].toLowerCase();
             arr["DataType"] = arr["ReadonlyType"]
-            arr["IsList"] = IsList
+            arr["IsList"] = isList
             delete arr["ReadonlyType"]
           }
           for(var arr of Ports["Outputs"]){
-            let IsList = false
-            let type = arr["ReadonlyType"]
-            if (type in dict || type.replace("List<", "").replace(">", "") in dict){
-              arr["ReadonlyType"] = dict[type]
-            } if (type.includes("List<") && type.replace("List<", "").replace(">", "") in dict) {
-              IsList = true
-            } if (type == "(T0, T1)") arr["ReadonlyType"] = "tuple";
+            let isList = false
+            if (arr["ReadonlyType"] in params) {
+              arr["ReadonlyType"] = params[arr["ReadonlyType"]]
+            } else if(arr["ReadonlyType"].replace("List<", "").replace(">", "") in params) {
+              arr["ReadonlyType"] = params[arr["ReadonlyType"].replace("List<", "").replace(">", "")]
+              isList = true
+            } else if (arr["ReadonlyType"] == "(T0, T1)") {
+              arr["ReadonlyType"] = "tuple"
+            } if(arr["ReadonlyType"].includes("List<")) {
+              arr["ReadonlyType"] = arr["ReadonlyType"].replace("List<", "").replace(">", "")
+              isList = true
+            }
+            if(typeof(arr["ReadonlyType"]) == "string") arr["ReadonlyType"] = arr["ReadonlyType"].toLowerCase();
             arr["DataType"] = arr["ReadonlyType"]
-            arr["IsList"] = IsList
+            arr["IsList"] = isList
             delete arr["ReadonlyType"]
           }
-      } else{
+      } else {
         k["NodeDescs"][0]["Outputs"] = k["NodeDescs"][0]["Outputs"].toLowerCase()
         k["NodeDescs"][0]["Inputs"] = k["NodeDescs"][0]["Inputs"].toLowerCase() 
       }
         ndscs_in = k["NodeDescs"][0]["Inputs"]
         ndscs_out = k["NodeDescs"][0]["Outputs"]
+
+        k["Functions"] = [{
+          "Inputs": ndscs_in,
+          "Outputs": ndscs_out
+        }]
       }
+    }
       
 
       Out[k["ReadonlyChipName"]] = {
@@ -77,44 +99,9 @@ if(ShouldWrite) {
           "IsBeta": k["IsBetaChip"],
           "IsTrollingRisk": k["IsTrollingRisk"],
           "DeprecationStage": k["DeprecationStage"],
-          "Inputs": ndscs_in,
-          "Outputs": ndscs_out
+          "Functions": k["Functions"]
         }
     }
+    
     fs.writeFileSync("data/chips.json", JSON.stringify(Out, null, 4))
 }
-/*
-var Ports = PortsToChange["NodeDescs"][0]
-let ReadonlyTypeParams = Ports["ReadonlyTypeParams"]
-if(ReadonlyTypeParams[0] !== null){
-    for(var [key, declar] of Object.entries(ReadonlyTypeParams)){
-        var newtypes = declar.replace("(", "").replace(")", "").split(" ").filter((str) => str !== '' && str !== '|')
-        dict[key]=newtypes
-    }
-    for(var arr of Ports["Inputs"]){
-      let type = arr["ReadonlyType"]
-      if (type in dict){
-        arr["ReadonlyType"] = dict[type]
-      }
-    }
-    for(var arr of Ports["Outputs"]){
-      let type = arr["ReadonlyType"]
-      if (type in dict){
-        arr["ReadonlyType"] = dict[type]
-      }
-    }
-    console.log(Ports)
-} else console.log("No valid TypeParams");
-*/
-
-/* JSON Structure:
-{
-    "Chip Name": {
-        Description
-        IsBeta
-        IsTrollingRisk
-        DeprecationStage
-        NodeDescs (SHOULD CHANGE)
-    }
-}
-*/
