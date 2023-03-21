@@ -87,6 +87,7 @@ if(ShouldWrite) {
         ndscs_out = k["NodeDescs"][0]["Outputs"]
 
         k["Functions"] = [{
+          "Name": "",
           "Inputs": ndscs_in,
           "Outputs": ndscs_out
         }]

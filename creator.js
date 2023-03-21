@@ -1,4 +1,3 @@
-const { json } = require("d3")
 const fs = require("fs")
 const { exit } = require("process")
 const sortjson = require("sort-json")
@@ -7,7 +6,7 @@ const Ports_Unparsed = fs.readFileSync("data/ports.json")
 const Ports = Object.keys(JSON.parse(Ports_Unparsed)["Ports"])
 const SortOptions = { ignoreCase: true, reverse: false, depth: 1 }
 
-const exportfile = "data/chips_test.json"
+const exportfile = "data/chips.json"
 
 const filetomerge = JSON.parse(fs.readFileSync(exportfile))
 
@@ -30,6 +29,7 @@ function CreateChip() {
     let OutChip = {}
     let name = prompt("What's the name of the chip? - ")
     let desc = prompt("What's the description of the chip? - ")
+    if (name == "" || desc == "") exit(0);
     let IsBeta = prompt("Is this chip a beta chip? (y/n) - ").toLowerCase()
     if(IsBeta == "y") IsBeta = true; else IsBeta = false;
     console.log("IsBeta set to ".concat(IsBeta))
@@ -47,7 +47,7 @@ function CreateChip() {
             
             let Inputs = []
             let Outputs = []
-
+            let funcname = prompt("Function name: ")
             let InCount = Number(prompt("How many inputs does this function have? - "))
             if(InCount != NaN) {
                 console.log("Accepted!")
@@ -79,11 +79,11 @@ function CreateChip() {
                         IsList = true
                         let ListType = prompt("List Data Type: ").toLowerCase()
                         if(!Ports.includes(ListType) && ListType != "exec") {
+                            if(ListType == "union") {
+                                ListType = CreateUnion()
+                            } else{
                             ListType = "any"
-                            console.log("Invalid Data Type... Using 'Any'.")
-                        }
-                        if(ListType == "union") {
-                            ListType = CreateUnion()
+                            console.log("Invalid Data Type... Using 'Any'.")}
                         }
                         porttype = ListType
                     }
@@ -135,6 +135,7 @@ function CreateChip() {
                 )
             }
             OutChip["Functions"].push({
+                "Name": funcname,
                 "Inputs": Inputs,
                 "Outputs": Outputs
             })
@@ -161,4 +162,4 @@ function cmd() {
     cmd()
 }
 
-console.log(CreateChip())
+cmd()

@@ -6,6 +6,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -38,6 +39,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -64,6 +66,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -96,6 +99,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Run",
@@ -152,6 +156,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -186,6 +191,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -227,6 +233,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -268,6 +275,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "AI",
@@ -312,6 +320,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "AI",
@@ -338,6 +347,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "AI",
@@ -378,6 +388,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -430,6 +441,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -468,6 +480,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -514,6 +527,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -556,6 +570,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -618,6 +633,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -656,6 +672,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -694,6 +711,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -732,6 +750,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -764,6 +783,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -796,6 +816,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -828,6 +849,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -847,6 +869,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Input",
@@ -873,6 +896,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Add Velocity",
@@ -926,6 +950,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Add Velocity",
@@ -982,6 +1007,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Set Velocity",
@@ -1029,6 +1055,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Set Velocity",
@@ -1079,6 +1106,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -1105,6 +1133,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Y",
@@ -1137,6 +1166,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -1158,11 +1188,12 @@
     },
     "Audio Get Length": {
         "Description": "Returns the length in seconds of the given audio reference.",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Audio",
@@ -1184,11 +1215,12 @@
     },
     "Audio Player Get Audio": {
         "Description": "Returns the most recent audio reference that the target Audio Player has started playing.",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1210,11 +1242,12 @@
     },
     "Audio Player Get Max Rolloff Distance": {
         "Description": "Returns the furthest distance from the target Audio Player that the audio can be heard from.",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1241,6 +1274,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1267,6 +1301,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1293,6 +1328,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1319,6 +1355,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1345,6 +1382,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1377,6 +1415,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1410,11 +1449,12 @@
     },
     "Audio Player Set Max Rolloff Distance": {
         "Description": "Sets the maximum distance that audio from the target Audio Player can be heard from.",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1453,6 +1493,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1486,11 +1527,12 @@
     },
     "Audio Player Set Time Stamp": {
         "Description": "Sets the time stamp of the target Audio Player in seconds.",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1529,6 +1571,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1567,6 +1610,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1599,6 +1643,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -1618,6 +1663,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1644,6 +1690,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1670,6 +1717,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -1696,6 +1744,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1734,6 +1783,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1772,6 +1822,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1810,6 +1861,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1842,6 +1894,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -1868,6 +1921,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1900,6 +1954,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1926,6 +1981,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -1958,6 +2014,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -1984,6 +2041,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2016,6 +2074,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2048,6 +2107,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2080,6 +2140,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2112,6 +2173,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2138,6 +2200,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2170,6 +2233,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2208,6 +2272,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2246,6 +2311,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Tuple",
@@ -2278,6 +2344,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2304,6 +2371,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2330,6 +2398,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2368,6 +2437,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2394,6 +2464,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2426,6 +2497,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -2471,11 +2543,12 @@
     },
     "Clear Player Vignette": {
         "Description": "Clears any active screen vignette on the given player.",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2508,6 +2581,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2540,6 +2614,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2572,6 +2647,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2598,6 +2674,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2624,6 +2701,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2650,6 +2728,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2676,6 +2755,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -2702,6 +2782,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -2721,6 +2802,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2759,6 +2841,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Color",
@@ -2785,6 +2868,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Combatant",
@@ -2815,6 +2899,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Object",
@@ -2857,6 +2942,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Object",
@@ -2887,6 +2973,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Combatant",
@@ -2923,6 +3010,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -2961,6 +3049,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3019,6 +3108,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3061,6 +3151,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3103,6 +3194,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Combatant",
@@ -3141,6 +3233,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": []
             }
@@ -3153,6 +3246,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -3172,6 +3266,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -3191,6 +3286,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -3210,6 +3306,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -3236,6 +3333,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3274,6 +3372,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3300,6 +3399,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3338,6 +3438,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Tag",
@@ -3364,6 +3465,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3390,6 +3492,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Tag",
@@ -3416,6 +3519,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3442,6 +3546,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Object",
@@ -3474,6 +3579,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3512,6 +3618,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3550,6 +3657,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3582,6 +3690,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Run",
@@ -3632,6 +3741,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3670,6 +3780,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3696,6 +3807,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3722,6 +3834,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3748,6 +3861,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3786,6 +3900,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "A",
@@ -3830,6 +3945,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -3864,6 +3980,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3890,6 +4007,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -3916,6 +4034,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -3954,6 +4073,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Set Locked",
@@ -3992,6 +4112,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4018,6 +4139,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4044,6 +4166,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4070,6 +4193,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4096,6 +4220,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4134,6 +4259,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4172,6 +4298,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4210,6 +4337,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4248,6 +4376,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4286,6 +4415,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4318,6 +4448,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4350,6 +4481,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "A",
@@ -4382,6 +4514,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": []
             }
@@ -4394,6 +4527,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -4413,6 +4547,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4439,6 +4574,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4471,6 +4607,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4503,6 +4640,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4535,6 +4673,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4561,6 +4700,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4587,6 +4727,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -4613,6 +4754,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4651,6 +4793,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4689,6 +4832,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4727,6 +4871,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4765,6 +4910,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -4791,6 +4937,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -4817,6 +4964,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -4836,6 +4984,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -4880,6 +5029,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4924,6 +5074,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -4974,6 +5125,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5000,6 +5152,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5019,6 +5172,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5038,6 +5192,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Run",
@@ -5088,6 +5243,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5114,11 +5270,12 @@
     },
     "Get Closest": {
         "Description": "Finds the element in Targets that is closest in space to Origin, and returns it, its index in the list, and its distance to Origin.",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Origin",
@@ -5175,6 +5332,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "List",
@@ -5202,11 +5360,12 @@
     },
     "Get Farthest": {
         "Description": "Finds the element in Targets that is farthest in space to Origin, and returns it, its index in the list, and its distance to Origin.",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Origin",
@@ -5263,6 +5422,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Role",
@@ -5289,6 +5449,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5318,6 +5479,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Universal Seconds",
@@ -5353,6 +5515,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5382,6 +5545,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5408,6 +5572,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5434,6 +5599,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5460,6 +5626,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5486,6 +5653,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "List",
@@ -5512,6 +5680,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5531,6 +5700,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5550,6 +5720,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5569,6 +5740,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5588,6 +5760,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -5607,6 +5780,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5636,6 +5810,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5662,6 +5837,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -5688,6 +5864,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Name",
@@ -5714,6 +5891,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Name",
@@ -5740,6 +5918,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Run",
@@ -5790,6 +5969,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -5816,6 +5996,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Role Name",
@@ -5842,6 +6023,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5868,6 +6050,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5894,6 +6077,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5920,6 +6104,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5946,6 +6131,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5972,6 +6158,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -5998,6 +6185,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6024,6 +6212,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6050,6 +6239,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6076,6 +6266,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6102,6 +6293,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6128,6 +6320,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6154,6 +6347,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6185,6 +6379,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -6204,6 +6399,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -6223,6 +6419,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -6242,6 +6439,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -6291,6 +6489,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6315,11 +6514,12 @@
     },
     "Player Get Time Zone": {
         "Description": "Returns the offset of the given player's local time zone from UTC in seconds.",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -6346,6 +6546,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -6365,6 +6566,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -6414,6 +6616,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6443,6 +6646,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6472,6 +6676,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -6510,6 +6715,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "A",
@@ -6548,6 +6754,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "A",
@@ -6586,6 +6793,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -6624,6 +6832,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -6662,6 +6871,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6688,6 +6898,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6714,6 +6925,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6740,6 +6952,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6772,6 +6985,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -6798,6 +7012,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -6836,6 +7051,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -6874,6 +7090,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -6924,6 +7141,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -6962,6 +7180,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7006,6 +7225,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7050,6 +7270,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7088,6 +7309,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7144,6 +7366,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7170,6 +7393,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7196,6 +7420,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7228,6 +7453,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7254,6 +7480,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7280,6 +7507,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7306,6 +7534,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7332,6 +7561,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7370,6 +7600,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7408,6 +7639,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7446,6 +7678,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7484,6 +7717,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7522,6 +7756,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7560,6 +7795,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7598,6 +7834,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7636,6 +7873,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -7666,11 +7904,12 @@
     },
     "HSV To Color": {
         "Description": "Return a color from the given hue, saturation, and value inputs. All inputs are in the range [0, 1].",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Hue",
@@ -7709,6 +7948,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -7728,6 +7968,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "If",
@@ -7766,6 +8007,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7798,6 +8040,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7830,6 +8073,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7868,6 +8112,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -7906,6 +8151,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Add Velocity",
@@ -7959,6 +8205,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Reflect Velocity",
@@ -8018,6 +8265,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Set Velocity",
@@ -8065,6 +8313,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8091,6 +8340,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8117,6 +8367,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8155,6 +8406,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8193,6 +8445,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8231,6 +8484,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -8257,6 +8511,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8283,6 +8538,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8309,6 +8565,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8347,6 +8604,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8385,6 +8643,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -8404,6 +8663,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -8423,6 +8683,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8444,11 +8705,12 @@
     },
     "Laser Pointer Get Color": {
         "Description": "",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8470,11 +8732,12 @@
     },
     "Laser Pointer Get Enabled": {
         "Description": "",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8496,11 +8759,12 @@
     },
     "Laser Pointer Get Length": {
         "Description": "",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8522,11 +8786,12 @@
     },
     "Laser Pointer Set Color": {
         "Description": "",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8560,11 +8825,12 @@
     },
     "Laser Pointer Set Enabled": {
         "Description": "",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8598,11 +8864,12 @@
     },
     "Laser Pointer Set Length": {
         "Description": "",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8641,6 +8908,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Start",
@@ -8694,6 +8962,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "A",
@@ -8732,6 +9001,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "A",
@@ -8770,6 +9040,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8796,6 +9067,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8822,6 +9094,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8848,6 +9121,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8874,6 +9148,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8900,6 +9175,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8926,6 +9202,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -8952,6 +9229,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -8990,6 +9268,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9028,6 +9307,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9066,6 +9346,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9104,6 +9385,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9142,6 +9424,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9180,6 +9463,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9218,6 +9502,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9250,6 +9535,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9282,6 +9568,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9320,6 +9607,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9346,6 +9634,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9372,6 +9661,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9410,6 +9700,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9448,6 +9739,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "List 1",
@@ -9480,6 +9772,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9512,6 +9805,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9550,6 +9844,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9588,6 +9883,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9622,6 +9918,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9660,6 +9957,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9692,6 +9990,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9724,6 +10023,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9768,6 +10068,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9806,6 +10107,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9838,6 +10140,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9870,6 +10173,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -9906,6 +10210,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9944,6 +10249,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -9982,6 +10288,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10020,6 +10327,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10052,6 +10360,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10084,6 +10393,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10126,6 +10436,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10164,6 +10475,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -10198,6 +10510,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -10232,6 +10545,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10270,6 +10584,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -10302,6 +10617,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10334,6 +10650,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Item",
@@ -10360,6 +10677,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Item 0",
@@ -10392,6 +10710,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -10424,6 +10743,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -10456,6 +10776,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -10488,6 +10809,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -10524,6 +10846,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -10543,6 +10866,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Input",
@@ -10569,6 +10893,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Point",
@@ -10595,6 +10920,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Input",
@@ -10621,6 +10947,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -10647,6 +10974,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10685,6 +11013,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Input",
@@ -10711,6 +11040,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -10755,6 +11085,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -10782,11 +11113,12 @@
     },
     "Parse Color": {
         "Description": "Attempt to parse the given string as a hexadecimal color in the '#RRGGBB' format.",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -10819,6 +11151,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -10851,6 +11184,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -10883,6 +11217,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -10909,6 +11244,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -10935,6 +11271,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -10961,6 +11298,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -10987,6 +11325,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11013,6 +11352,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11051,6 +11391,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11089,6 +11430,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11127,6 +11469,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11165,6 +11508,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11203,6 +11547,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11247,6 +11592,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11303,6 +11649,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11359,6 +11706,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Tag",
@@ -11385,6 +11733,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -11411,6 +11760,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -11461,6 +11811,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Tag",
@@ -11482,11 +11833,12 @@
     },
     "Player Get Is Jumping Or Falling": {
         "Description": "",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -11519,6 +11871,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11545,6 +11898,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Player",
@@ -11571,6 +11925,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11603,6 +11958,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11659,6 +12015,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11691,6 +12048,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11717,6 +12075,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11743,6 +12102,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11769,6 +12129,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11795,6 +12156,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11821,6 +12183,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11847,6 +12210,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -11873,6 +12237,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11906,11 +12271,12 @@
     },
     "Player Owns Room Key": {
         "Description": "",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Run",
@@ -11961,6 +12327,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -11999,6 +12366,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12025,6 +12393,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12051,6 +12420,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12077,6 +12447,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12103,6 +12474,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12129,6 +12501,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12161,6 +12534,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12205,6 +12579,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12273,6 +12648,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -12292,6 +12668,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -12324,6 +12701,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12362,6 +12740,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12388,6 +12767,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12414,6 +12794,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12440,6 +12821,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12466,6 +12848,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12492,6 +12875,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12518,6 +12902,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12544,6 +12929,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -12570,6 +12956,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12608,6 +12995,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12646,6 +13034,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12684,6 +13073,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12722,6 +13112,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12760,6 +13151,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12798,6 +13190,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12836,6 +13229,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12874,6 +13268,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12912,6 +13307,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -12963,11 +13359,12 @@
     },
     "Prompt Multiple Choice Player": {
         "Description": "Sends a watch notification to the specified player containing the prompt title and body, along with each of the answer choices on its own line. Once this watch notification is opened, the player can choose a response and hit \"ok,\" triggering the On Prompt Complete event. Since there is a delay between sending a notification and receiving the response in which other responses may be received, the Player output can be used to disambiguate multiple responses",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13048,6 +13445,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Angle",
@@ -13080,6 +13478,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Angles",
@@ -13106,6 +13505,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "From",
@@ -13138,6 +13538,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Forward",
@@ -13170,6 +13571,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "X",
@@ -13214,6 +13616,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Lhs",
@@ -13246,6 +13649,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -13272,6 +13676,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Quaternion",
@@ -13304,6 +13709,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -13330,6 +13736,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13368,6 +13775,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -13394,6 +13802,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "From",
@@ -13432,6 +13841,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Rotation",
@@ -13464,6 +13874,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Start",
@@ -13502,6 +13913,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Quaternion",
@@ -13546,6 +13958,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13590,6 +14003,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13628,6 +14042,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13666,6 +14081,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13710,6 +14126,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Start Position",
@@ -13778,6 +14195,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13819,6 +14237,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13860,6 +14279,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13886,6 +14306,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13918,6 +14339,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13950,6 +14372,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -13969,6 +14392,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14043,6 +14467,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14112,11 +14537,12 @@
     },
     "RGB To Color": {
         "Description": "Return a color from the given red, green, and blue inputs. All inputs are in the range [0, 1].",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Red",
@@ -14155,6 +14581,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -14199,6 +14626,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -14231,6 +14659,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -14263,6 +14692,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Room Index",
@@ -14289,6 +14719,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -14333,6 +14764,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -14365,6 +14797,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -14397,6 +14830,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -14423,6 +14857,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -14449,6 +14884,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -14475,6 +14911,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -14501,6 +14938,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14539,6 +14977,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14577,6 +15016,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14615,6 +15055,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14653,6 +15094,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -14679,6 +15121,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -14705,6 +15148,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -14724,6 +15168,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -14750,6 +15195,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -14776,6 +15222,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -14802,6 +15249,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14840,6 +15288,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14878,6 +15327,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14922,6 +15372,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -14954,6 +15405,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -14973,6 +15425,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15005,6 +15458,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15049,6 +15503,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15093,6 +15548,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15131,6 +15587,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15169,6 +15626,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15207,6 +15665,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15245,6 +15704,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15283,6 +15743,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Set",
@@ -15316,11 +15777,12 @@
     },
     "Set Player Vignette": {
         "Description": "Apply a vignette of the given color to the given player. The vignette will be displayed at the given intensity for the given duration, and then fade out. The intensity must be between 0 and 1.",
-        "IsBeta": false,
+        "IsBeta": true,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15371,6 +15833,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15409,6 +15872,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15447,6 +15911,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15485,6 +15950,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15523,6 +15989,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15561,6 +16028,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15599,6 +16067,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15637,6 +16106,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15675,6 +16145,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15713,6 +16184,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15751,6 +16223,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15789,6 +16262,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15827,6 +16301,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15874,6 +16349,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15921,6 +16397,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -15971,6 +16448,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16027,6 +16505,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -16046,6 +16525,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -16072,6 +16552,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -16098,6 +16579,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16130,6 +16612,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16168,6 +16651,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16200,6 +16684,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16238,6 +16723,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16276,6 +16762,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16314,6 +16801,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16364,6 +16852,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -16390,6 +16879,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -16409,6 +16899,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16441,6 +16932,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16491,6 +16983,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16535,6 +17028,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16573,6 +17067,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16617,6 +17112,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16655,6 +17151,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -16681,6 +17178,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16719,6 +17217,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16757,6 +17256,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16795,6 +17295,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16833,6 +17334,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16883,6 +17385,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16927,6 +17430,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -16965,6 +17469,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Start Position",
@@ -17039,6 +17544,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17071,6 +17577,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Separator",
@@ -17103,6 +17610,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17135,6 +17643,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Format",
@@ -17167,6 +17676,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17193,6 +17703,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17231,6 +17742,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17263,6 +17775,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17295,6 +17808,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17327,6 +17841,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17353,6 +17868,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17379,6 +17895,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17417,6 +17934,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17461,6 +17979,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17505,6 +18024,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17549,6 +18069,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17593,6 +18114,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17643,6 +18165,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17693,6 +18216,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17743,6 +18267,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -17793,6 +18318,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Studio Object",
@@ -17825,6 +18351,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Studio Object",
@@ -17857,6 +18384,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Studio Object",
@@ -17889,6 +18417,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Studio Object",
@@ -17921,6 +18450,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "String",
@@ -17959,6 +18489,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -17993,6 +18524,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [],
                 "Outputs": [
                     {
@@ -18012,6 +18544,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Modify",
@@ -18062,6 +18595,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -18088,6 +18622,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18120,6 +18655,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18164,6 +18700,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18190,6 +18727,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18216,6 +18754,7 @@
         "DeprecationStage": "Deprecated",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18254,6 +18793,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18292,6 +18832,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18330,6 +18871,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18368,6 +18910,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Player or AI",
@@ -18397,6 +18940,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18423,6 +18967,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18449,6 +18994,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18487,6 +19033,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -18513,6 +19060,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18539,6 +19087,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18565,6 +19114,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18591,6 +19141,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18617,6 +19168,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18643,6 +19195,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18669,6 +19222,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -18695,6 +19249,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18733,6 +19288,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18771,6 +19327,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Match",
@@ -18803,6 +19360,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Match",
@@ -18835,6 +19393,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Lhs",
@@ -18867,6 +19426,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Lhs",
@@ -18899,6 +19459,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "",
@@ -18937,6 +19498,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -18963,6 +19525,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Value",
@@ -18998,6 +19561,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "X",
@@ -19036,6 +19600,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Direction",
@@ -19068,6 +19633,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Vector3",
@@ -19094,6 +19660,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Vector3",
@@ -19132,6 +19699,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "Target",
@@ -19158,6 +19726,7 @@
         "DeprecationStage": "Active",
         "Functions": [
             {
+                "Name": "",
                 "Inputs": [
                     {
                         "Name": "SetEnabled",
