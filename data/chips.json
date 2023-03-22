@@ -842,7 +842,7 @@
             }
         ]
     },
-    "Ambience": {
+    "Ambience Constant": {
         "Description": "Choose from a selection of ambient audio tracks, for use with the Audio Player.",
         "IsBeta": false,
         "IsTrollingRisk": false,
@@ -2775,7 +2775,7 @@
             }
         ]
     },
-    "Color": {
+    "Color Constant": {
         "Description": "",
         "IsBeta": false,
         "IsTrollingRisk": false,
@@ -3226,7 +3226,7 @@
             }
         ]
     },
-    "i": {
+    "Comment": {
         "Description": "Put a comment next to your circuits to explain what they're doing.",
         "IsBeta": false,
         "IsTrollingRisk": false,
@@ -3239,7 +3239,7 @@
             }
         ]
     },
-    "Consumable": {
+    "Consumable Constant": {
         "Description": "",
         "IsBeta": false,
         "IsTrollingRisk": false,
@@ -3259,7 +3259,7 @@
             }
         ]
     },
-    "Destination Room": {
+    "Destination Room Constant": {
         "Description": "Configure this constant to choose a destination, specifying room, subroom, and welcome mat. If destination room is different than current room, only Entry Subrooms may be targeted. Party follow options may vary by destination. Use this chip with Go To Room.",
         "IsBeta": false,
         "IsTrollingRisk": false,
@@ -7981,7 +7981,7 @@
             }
         ]
     },
-    "HUD Element": {
+    "HUD Element Constant": {
         "Description": "",
         "IsBeta": false,
         "IsTrollingRisk": false,
@@ -11061,7 +11061,7 @@
             }
         ]
     },
-    "Music": {
+    "Music Constant": {
         "Description": "Choose from a selection of music tracks, for use with the Audio Player.",
         "IsBeta": false,
         "IsTrollingRisk": false,
@@ -15600,7 +15600,7 @@
             }
         ]
     },
-    "Sample Audio": {
+    "Sample Audio Constant": {
         "Description": "Record and store custom a custom audio sample, for use with the Audio Player.",
         "IsBeta": false,
         "IsTrollingRisk": false,
@@ -16957,7 +16957,7 @@
             }
         ]
     },
-    "SFX": {
+    "SFX Constant": {
         "Description": "Choose from a selection of SFX, for use with the Audio Player.",
         "IsBeta": false,
         "IsTrollingRisk": false,
@@ -18347,7 +18347,7 @@
             }
         ]
     },
-    "Studio Audio": {
+    "Studio Audio Constant": {
         "Description": "",
         "IsBeta": false,
         "IsTrollingRisk": false,

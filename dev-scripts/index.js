@@ -96,7 +96,7 @@ if(ShouldWrite) {
     }
       
 
-      Out[k["ReadonlyChipName"]] = {
+      Out[k["ReadonlyPaletteName"]] = {
           "Description": k["Description"],
           "IsBeta": k["IsBetaChip"],
           "IsTrollingRisk": k["IsTrollingRisk"],
