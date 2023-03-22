@@ -1,7 +1,7 @@
 ### RecRoom-Circuits-Data
 Contains circuit information files. Useful for graphing websites.
 
-## Chip json can be found [here](chips/chips.json), but is being worked on.
+## The JSON files can be found [here](data).
 
 #Requirements:
 Node JS
