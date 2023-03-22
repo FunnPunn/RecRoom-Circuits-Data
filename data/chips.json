@@ -1188,7 +1188,7 @@
     },
     "Audio Get Length": {
         "Description": "Returns the length in seconds of the given audio reference.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -1215,7 +1215,7 @@
     },
     "Audio Player Get Audio": {
         "Description": "Returns the most recent audio reference that the target Audio Player has started playing.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -1242,7 +1242,7 @@
     },
     "Audio Player Get Max Rolloff Distance": {
         "Description": "Returns the furthest distance from the target Audio Player that the audio can be heard from.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -1449,7 +1449,7 @@
     },
     "Audio Player Set Max Rolloff Distance": {
         "Description": "Sets the maximum distance that audio from the target Audio Player can be heard from.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -1527,7 +1527,7 @@
     },
     "Audio Player Set Time Stamp": {
         "Description": "Sets the time stamp of the target Audio Player in seconds.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -2543,7 +2543,7 @@
     },
     "Clear Player Vignette": {
         "Description": "Clears any active screen vignette on the given player.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -3281,7 +3281,7 @@
     },
     "Room Key Constant": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -3729,6 +3729,26 @@
                         "Description": "",
                         "DataType": "exec",
                         "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
+    "Get All Players (Deprecated)": {
+        "Description": "Outputs a list of all the players in the room currently.",
+        "IsBeta": false,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Deprecated",
+        "Functions": [
+            {
+                "Name": "Get All Players (Deprecated)",
+                "Inputs": [],
+                "Outputs": [
+                    {
+                        "Name": "Players",
+                        "Description": "",
+                        "DataType": "player",
+                        "IsList": true
                     }
                 ]
             }
@@ -5270,7 +5290,7 @@
     },
     "Get Closest": {
         "Description": "Finds the element in Targets that is closest in space to Origin, and returns it, its index in the list, and its distance to Origin.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -5360,7 +5380,7 @@
     },
     "Get Farthest": {
         "Description": "Finds the element in Targets that is farthest in space to Origin, and returns it, its index in the list, and its distance to Origin.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -5673,6 +5693,26 @@
             }
         ]
     },
+    "Get Loading Players": {
+        "Description": "Returns the number of players that are currently loading into the room.",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Get Loading Players",
+                "Inputs": [],
+                "Outputs": [
+                    {
+                        "Name": "Loading Players",
+                        "Description": "",
+                        "DataType": "int",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
     "Get Local Camera Forward": {
         "Description": "Gets the direction your avatar is looking, output as a vector3.",
         "IsBeta": false,
@@ -5966,7 +6006,7 @@
         "Description": "",
         "IsBeta": false,
         "IsTrollingRisk": false,
-        "DeprecationStage": "Active",
+        "DeprecationStage": "Deprecated",
         "Functions": [
             {
                 "Name": "Get Player Season League Name",
@@ -6514,7 +6554,7 @@
     },
     "Player Get Time Zone": {
         "Description": "Returns the offset of the given player's local time zone from UTC in seconds.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -7904,7 +7944,7 @@
     },
     "HSV To Color": {
         "Description": "Return a color from the given hue, saturation, and value inputs. All inputs are in the range [0, 1].",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -8504,6 +8544,57 @@
             }
         ]
     },
+    "Inverse Lerp": {
+        "Description": "",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Inverse Lerp",
+                "Inputs": [
+                    {
+                        "Name": "Start",
+                        "Description": "",
+                        "DataType": [
+                            "float",
+                            "vector3",
+                            "color"
+                        ],
+                        "IsList": false
+                    },
+                    {
+                        "Name": "End",
+                        "Description": "",
+                        "DataType": [
+                            "float",
+                            "vector3",
+                            "color"
+                        ],
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Value",
+                        "Description": "",
+                        "DataType": [
+                            "float",
+                            "vector3",
+                            "color"
+                        ],
+                        "IsList": false
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "Result",
+                        "Description": "",
+                        "DataType": "float",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
     "Invisible Collision Get Blocks Players": {
         "Description": "Outputs True if the target Invisible Collision object is set to collide with players.",
         "IsBeta": false,
@@ -8705,7 +8796,7 @@
     },
     "Laser Pointer Get Color": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -8732,7 +8823,7 @@
     },
     "Laser Pointer Get Enabled": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -8759,7 +8850,7 @@
     },
     "Laser Pointer Get Length": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -8786,7 +8877,7 @@
     },
     "Laser Pointer Set Color": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -8825,7 +8916,7 @@
     },
     "Laser Pointer Set Enabled": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -8864,7 +8955,7 @@
     },
     "Laser Pointer Set Length": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -9798,6 +9889,33 @@
             }
         ]
     },
+    "List Copy": {
+        "Description": "Returns a shallow clone of the given list.",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "List Copy",
+                "Inputs": [
+                    {
+                        "Name": "Target",
+                        "Description": "",
+                        "DataType": "any",
+                        "IsList": true
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "Copy",
+                        "Description": "",
+                        "DataType": "any",
+                        "IsList": true
+                    }
+                ]
+            }
+        ]
+    },
     "List<Rec Room Object> Variable": {
         "Description": "",
         "IsBeta": false,
@@ -10577,6 +10695,84 @@
             }
         ]
     },
+    "Local Player Disable Interaction with Target Player": {
+        "Description": "Removes the ability for the local player to interact with the provided player. This state is NOT synced with other users, and player interactivity will be removed only for players that ran this chip.",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Local Player Disable Interaction with Target Player",
+                "Inputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Player",
+                        "Description": "",
+                        "DataType": "player",
+                        "IsList": false
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
+    "Local Player Enable Interaction with Target Player": {
+        "Description": "Enables the local player to interact with the provided player. To respond to interactions, configure a \"Event Receiver\" chip for the \"Local Player... Interaction\" events within a Player board. Hold duration is the number of seconds the player needs to hold the interact button to complete an interaction. If Hold duration is 0, the interaction will be a button press or tap on mobile platforms. Prompt is the string that will be displayed when a player interacts with the provided player.  Players will be interactive only for the players that ran this chip with them as the target player. Individual players may have different sets of players they can interact with. A player's interaction state is reset when the room is reset or reloaded. Enabling interactions with a player will make it so gestures do not work with them generally (e.g.: fistbumping, high-fiving, handshaking).",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Local Player Enable Interaction with Target Player",
+                "Inputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Player",
+                        "Description": "",
+                        "DataType": "player",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Required Hold Duration",
+                        "Description": "",
+                        "DataType": "float",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Prompt",
+                        "Description": "",
+                        "DataType": "string",
+                        "IsList": false
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
     "Logarithm": {
         "Description": "Computes a logarithm.",
         "IsBeta": false,
@@ -10607,6 +10803,32 @@
                         "IsList": false
                     }
                 ]
+            }
+        ]
+    },
+    "Log Error": {
+        "Description": "Logs the given error message to the logging tab of your palette.",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Log Error",
+                "Inputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Error",
+                        "Description": "",
+                        "DataType": "string",
+                        "IsList": false
+                    }
+                ],
+                "Outputs": []
             }
         ]
     },
@@ -11113,7 +11335,7 @@
     },
     "Parse Color": {
         "Description": "Attempt to parse the given string as a hexadecimal color in the '#RRGGBB' format.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -11540,6 +11762,63 @@
             }
         ]
     },
+    "Play Audio At Position": {
+        "Description": "",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Play Audio At Position",
+                "Inputs": [
+                    {
+                        "Name": "Play",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Audio",
+                        "Description": "",
+                        "DataType": "audio",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Position",
+                        "Description": "",
+                        "DataType": "vector3",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Volume",
+                        "Description": "",
+                        "DataType": "float",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Playback Speed",
+                        "Description": "",
+                        "DataType": "float",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Is 2D",
+                        "Description": "",
+                        "DataType": "bool",
+                        "IsList": false
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "Play",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
     "Player Add Role": {
         "Description": "Adds a Role to a Player.",
         "IsBeta": false,
@@ -11833,7 +12112,7 @@
     },
     "Player Get Is Jumping Or Falling": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -11885,6 +12164,33 @@
                         "Name": "Result",
                         "Description": "",
                         "DataType": "bool",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
+    "Player Get Radio Channel": {
+        "Description": "Get the radio channel number of a player. If a player is not in any, this node returns -1",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Player Get Radio Channel",
+                "Inputs": [
+                    {
+                        "Name": "Player",
+                        "Description": "",
+                        "DataType": "player",
+                        "IsList": false
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "Channel",
+                        "Description": "",
+                        "DataType": "int",
                         "IsList": false
                     }
                 ]
@@ -12271,7 +12577,7 @@
     },
     "Player Owns Room Key": {
         "Description": "",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -12314,6 +12620,120 @@
                         "Name": "Player Owns Room Key",
                         "Description": "",
                         "DataType": "bool",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
+    "Player Prompt Multiple Choice": {
+        "Description": "Sends a watch notification to the specified player containing the prompt title and body, along with each of the answer choices on its own line. Once this watch notification is opened, the player can choose a response and hit \"ok,\" triggering the On Prompt Complete event. Since there is a delay between sending a notification and receiving the response in which other responses may be received, the Player output can be used to disambiguate multiple responses",
+        "IsBeta": false,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Player Prompt Multiple Choice",
+                "Inputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Player",
+                        "Description": "",
+                        "DataType": "player",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Prompt Title",
+                        "Description": "",
+                        "DataType": "string",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Prompt Body",
+                        "Description": "",
+                        "DataType": "string",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Answer Choices",
+                        "Description": "",
+                        "DataType": "string",
+                        "IsList": true
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "Run",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "On Prompt Complete",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Success",
+                        "Description": "",
+                        "DataType": "bool",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Receiving Player",
+                        "Description": "",
+                        "DataType": "player",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Response",
+                        "Description": "",
+                        "DataType": "string",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Response Index",
+                        "Description": "",
+                        "DataType": "int",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
+    "Remove Player From Radio Channel": {
+        "Description": "Remove a player from the radio channel they are in",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Remove Player From Radio Channel",
+                "Inputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Player",
+                        "Description": "",
+                        "DataType": "player",
+                        "IsList": false
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
                         "IsList": false
                     }
                 ]
@@ -12494,6 +12914,45 @@
             }
         ]
     },
+    "Player Set Radio Channel": {
+        "Description": "Assign a player to a radio channel. The channel needs to be a non-negative integer value. Players within the same channel will be able to communicate in team radio.",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Player Set Radio Channel",
+                "Inputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Player",
+                        "Description": "",
+                        "DataType": "player",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Channel",
+                        "Description": "",
+                        "DataType": "int",
+                        "IsList": false
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
     "Player Subscribes To Room Owner": {
         "Description": "Outputs True if the input Player subscribes to one of the current room's owners.",
         "IsBeta": false,
@@ -12655,6 +13114,54 @@
                         "Name": "",
                         "Description": "",
                         "DataType": "player world ui",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
+    "Play Handle Haptics": {
+        "Description": "Plays haptic feedback through a held Handle object Duration is an integer in milliseconds between 1 and 500 Intensity is a float value from 0 to 1  At this time, haptics are only supported on VR. ",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Play Handle Haptics",
+                "Inputs": [
+                    {
+                        "Name": "Play",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Handle",
+                        "Description": "",
+                        "DataType": [
+                            "trigger handle",
+                            "gun handle"
+                        ],
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Duration (ms)",
+                        "Description": "",
+                        "DataType": "int",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Intensity",
+                        "Description": "",
+                        "DataType": "float",
+                        "IsList": false
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "Play",
+                        "Description": "",
+                        "DataType": "exec",
                         "IsList": false
                     }
                 ]
@@ -13351,87 +13858,6 @@
                         "Name": "Failed",
                         "Description": "",
                         "DataType": "exec",
-                        "IsList": false
-                    }
-                ]
-            }
-        ]
-    },
-    "Prompt Multiple Choice Player": {
-        "Description": "Sends a watch notification to the specified player containing the prompt title and body, along with each of the answer choices on its own line. Once this watch notification is opened, the player can choose a response and hit \"ok,\" triggering the On Prompt Complete event. Since there is a delay between sending a notification and receiving the response in which other responses may be received, the Player output can be used to disambiguate multiple responses",
-        "IsBeta": true,
-        "IsTrollingRisk": false,
-        "DeprecationStage": "Active",
-        "Functions": [
-            {
-                "Name": "Prompt Multiple Choice Player",
-                "Inputs": [
-                    {
-                        "Name": "",
-                        "Description": "",
-                        "DataType": "exec",
-                        "IsList": false
-                    },
-                    {
-                        "Name": "Player",
-                        "Description": "",
-                        "DataType": "player",
-                        "IsList": false
-                    },
-                    {
-                        "Name": "Prompt Title",
-                        "Description": "",
-                        "DataType": "string",
-                        "IsList": false
-                    },
-                    {
-                        "Name": "Prompt Body",
-                        "Description": "",
-                        "DataType": "string",
-                        "IsList": false
-                    },
-                    {
-                        "Name": "Answer Choices",
-                        "Description": "",
-                        "DataType": "string",
-                        "IsList": true
-                    }
-                ],
-                "Outputs": [
-                    {
-                        "Name": "Run",
-                        "Description": "",
-                        "DataType": "exec",
-                        "IsList": false
-                    },
-                    {
-                        "Name": "On Prompt Complete",
-                        "Description": "",
-                        "DataType": "exec",
-                        "IsList": false
-                    },
-                    {
-                        "Name": "Success",
-                        "Description": "",
-                        "DataType": "bool",
-                        "IsList": false
-                    },
-                    {
-                        "Name": "Receiving Player",
-                        "Description": "",
-                        "DataType": "player",
-                        "IsList": false
-                    },
-                    {
-                        "Name": "Response",
-                        "Description": "",
-                        "DataType": "string",
-                        "IsList": false
-                    },
-                    {
-                        "Name": "Response Index",
-                        "Description": "",
-                        "DataType": "int",
                         "IsList": false
                     }
                 ]
@@ -14188,6 +14614,39 @@
             }
         ]
     },
+    "Recalculate Room Authority": {
+        "Description": "Recalcualtes and updates the current room authority based on parameters such as their network connection and platform.",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Recalculate Room Authority",
+                "Inputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Room Authority Changed",
+                        "Description": "",
+                        "DataType": "bool",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
     "Remove Tag": {
         "Description": "Removes a tag from the input object or player.",
         "IsBeta": false,
@@ -14537,7 +14996,7 @@
     },
     "RGB To Color": {
         "Description": "Return a color from the given red, green, and blue inputs. All inputs are in the range [0, 1].",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -15777,7 +16236,7 @@
     },
     "Set Player Vignette": {
         "Description": "Apply a vignette of the given color to the given player. The vignette will be displayed at the given intensity for the given duration, and then fade out. The intensity must be between 0 and 1.",
-        "IsBeta": true,
+        "IsBeta": false,
         "IsTrollingRisk": false,
         "DeprecationStage": "Active",
         "Functions": [
@@ -17888,6 +18347,26 @@
             }
         ]
     },
+    "Studio Audio": {
+        "Description": "",
+        "IsBeta": false,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Studio Audio Constant",
+                "Inputs": [],
+                "Outputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "audio",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
     "Studio Event Sender": {
         "Description": "",
         "IsBeta": false,
@@ -19053,6 +19532,33 @@
             }
         ]
     },
+    "Trigger Handle Get Control Prompt": {
+        "Description": "",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Trigger Handle Get Control Prompt",
+                "Inputs": [
+                    {
+                        "Name": "Target",
+                        "Description": "",
+                        "DataType": "trigger handle",
+                        "IsList": false
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "Control Prompt",
+                        "Description": "",
+                        "DataType": "string",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
     "Trigger Handle Get Primary Action Held": {
         "Description": "True if the primary action button is down; otherwise, False.",
         "IsBeta": false,
@@ -19074,6 +19580,45 @@
                         "Name": "Is Held",
                         "Description": "",
                         "DataType": "bool",
+                        "IsList": false
+                    }
+                ]
+            }
+        ]
+    },
+    "Trigger Handle Set Control Prompt": {
+        "Description": "",
+        "IsBeta": true,
+        "IsTrollingRisk": false,
+        "DeprecationStage": "Active",
+        "Functions": [
+            {
+                "Name": "Trigger Handle Set Control Prompt",
+                "Inputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Target",
+                        "Description": "",
+                        "DataType": "trigger handle",
+                        "IsList": false
+                    },
+                    {
+                        "Name": "Control Prompt",
+                        "Description": "",
+                        "DataType": "string",
+                        "IsList": false
+                    }
+                ],
+                "Outputs": [
+                    {
+                        "Name": "",
+                        "Description": "",
+                        "DataType": "exec",
                         "IsList": false
                     }
                 ]
