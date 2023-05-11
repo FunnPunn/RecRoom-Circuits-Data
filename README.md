@@ -1,3 +1,8 @@
+# THIS REPO IS ARCHIVED
+## A better one can be found [here!](https://github.com/FunnPunn/RecRoom-Circuits)
+
+
+=============================================================================
 ### RecRoom-Circuits-Data
 Contains circuit information files. Useful for graphing websites.
 
